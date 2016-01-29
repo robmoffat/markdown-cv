@@ -42,9 +42,9 @@ Business Analysts in banks understand **Excel**.   Therefore, why not get them t
 
 I’ve been interested recently in **Clojure** (a Lisp on Java's JVM) and **Frege** (a Haskell on the JVM) as ways of improving productivity and program correctness.  Frege especially espouses a pure functional approach to programming, a style which eradicates state within your application, making  testing easier and reducing the places where bugs can hide.
 
-Asking developers in finance to learn Haskell is a big ask: everyone already knows Java.   Pure4J is a Java code analysis tool for ensuring functional purity within a codebase, giving you the advantages of this style of programming without having to learn a new language.  Pure4J comes with the immutable, persistent collections from Clojure, adapted to use generics and normal Java idioms.
+Asking developers in finance to learn Haskell would be crazy: everyone already knows Java, it’s our *lingua franca*.   Pure4J is a Java code analysis tool for ensuring functional purity within a codebase, giving you the advantages of this style of programming without having to learn a new language.  Pure4J comes with the immutable, persistent collections from Clojure, adapted to use generics and normal Java idioms.
 
-### Kite9
+### [Kite9](http://kite9.com)
 
 [aside]
 > With Kite9 Rob's pulled off a rare double of having an ambitious technical vision and the focus and tenacity to get that vision built and launched. I love the tool too; Kite9 is crazy good.
@@ -53,7 +53,7 @@ Asking developers in finance to learn Haskell is a big ask: everyone already kno
 
 Kite9 is a online software diagramming tool that (unlike say **Visio**) organises the layout of the diagrams for you.
 
-Kite9 uses some cool technologies like **Grails, Bootstrap, SVG** and **jQuery**.  But the most interesting part is the graph layout.  Graph layout is a well-researched problem, but none of the algorithms in the literature had the functionality I wanted to see.  Kite9 uses a bespoke graph layout algorithm based on published approaches, but taken in new directions to give the user more control over the positioning of the elements.
+Kite9 uses some cool technologies like **Grails, Bootstrap, SVG** and **jQuery**.  But the most interesting part is the graph layout.  Graph layout is a well-researched problem, but none of the algorithms in the literature had the functionality I wanted to see.  Kite9 uses a bespoke graph layout algorithm based on published approaches, but taken in new directions to give the user more control over the orientation of the elements.
 
 You can try it at [Kite9.com](http://kite9.com).  It’s pretty fun to use, but still in development.
 
@@ -71,44 +71,44 @@ After graduating, I started work at a firm called **Datix** in London.  They bui
 
 #### Agora
 
-I worked for a Lotus Notes consultancy called **Agora** next in Kingston (nr. London, not Jamaica).  We were building a database for tracking patient records for the NHS.  In retrospect (and even at the time, really), this was a dreadful misuse of Lotus Notes, and the project was obviously going to fail.  Nevertheless, this was an excellent environment for learning new ideas, and I started using **Java, XML and relational databases** here.
+I worked for a Lotus Notes consultancy called **Agora** next in Kingston (London, not Jamaica).  We were building a database for tracking patient records for the NHS.  In retrospect (and even at the time, really), this was a dreadful misuse of Lotus Notes, and the project was obviously going to fail.  Nevertheless, this was an excellent environment for learning new ideas, and I started using **Java, XML and relational databases** here.
 
 #### PriceWaterhouseCoopers
 
-I worked briefly at **PriceWaterhouseCoopers**, on their global website.  I mainly helped by automating the process of scooping out content from their existing web pages, so that it could be ported into the new design.   Sadly, this project got cancelled pretty quickly.
+I worked briefly at **PriceWaterhouseCoopers**, on their global website.  I mainly helped by automating the process of scooping out content from their existing web pages (using **XSLT, XML and Java**), so that it could be ported into the new design.   Sadly, this project got cancelled pretty quickly.
 
-#### WideLearning
+#### Wide Learning
 
 Next, I worked for **Wide Learning**, a Purveyor of online software courses.  Theirs was the typical story of .com excess, where they received huge amounts of funding one day, and then had to sell up when the market turned against them.
 
-I worked on the implementation of Wide’s e-learning Content Delivery System, the purpose of which was to render courseware that tailors learning content to the requirements of the student.  We used **Java, J2EE and WebLogic**.  (And Enterprise Java Beans (EJBs) which seemed like a good idea at the time.)
+I worked on the implementation of Wide’s e-learning Content Delivery System, the purpose of which was to render courseware that tailors learning content to the requirements of the student.  We used **Java, J2EE and WebLogic**.  (And **Enterprise Java Beans (EJBs)** which seemed like a good idea at the time.)
 
 #### RI3K
 
 Finally I worked for **RI3K** (now part of Qatar Insurance Services), who were creating an application for trading reinsurance contracts.  They had chosen **Java, WebLogic, EJB, Oracle**  and extensively used **XSLT** for rendering user interfaces.
 
-I Put in place a build process managing all the deployment platforms, (on NT, Linux and HPUX using **Apache**, **Tomcat** and **CapeClear**) for UK and Singapore versions and rolled out periodically to these sites.  Also, I developed several areas of the system, including Contracts and negotiation workflows, working closely with in-house experts.
+I put in place a build process managing all the deployment platforms, (on NT, Linux and HPUX using **Apache**, **Tomcat** and **CapeClear**) for UK and Singapore versions and rolled out periodically to these sites.  Also, I developed several areas of the system, including Contracts and Negotiation workflows, working closely with in-house experts.
 
 ### Deutsche Bank Feb. 2002 – Mar. 2005
 
 #### Tech Lead in the Risk and PnL Reporting Team.
 
 [aside]
-Rob was an enthusiastic and knowledgeable member of the team who was always keen to investigate new technology when providing solutions. He has an affable nature and is an excellent communicator of ideas. It would be great to work with Rob again in the future.
+> Rob was an enthusiastic and knowledgeable member of the team who was always keen to investigate new technology when providing solutions. He has an affable nature and is an excellent communicator of ideas. It would be great to work with Rob again in the future.
 - Laurence May
 [/aside]
 
-Shortly after starting, I introduced improved development practices to the team by bringing all source code under source control in VSS (later moved to CVS), with a single build process using Ant, as well as introducing Eclipse IDE, which was a new thing back then.  Later, we would move everything to Maven, but I left before we completed this.
+Shortly after starting, I introduced improved development practices to the team by bringing all source code under source control in **VSS** (later moved to **CVS**), with a single build process using **Ant**, as well as introducing **Eclipse IDE**, which was a new thing back then.  Later, we would move everything to **Maven**, too.
 
-I Developed and delivered a complete global redesign and rollout of risk’s website in 5 regions (***Java Servlets, JSP, Sybase**), based on the Deutsche Look-And-Feel guidelines.  I built a JSP tag library for all of the Deutsche interface elements, so other people could do the same with their websites.
+I Developed and delivered a complete global redesign and rollout of risk’s website in 5 regions (**Java Servlets, JSP, Sybase**), based on the Deutsche Look-And-Feel guidelines.  I built a **JSP tag library** for all of the Deutsche interface elements, so other people could do the same with their websites.
 
-I was Tech lead and architect on the **MIS3 Project**, which was a risk and PnL aggregation and reporting tool that brought together daily valuations and risk together with trade details from a variety of different risk and trade sources for use by downstream groups (margin management, risk controlling, accounts etc).
+I was tech lead and architect on the **MIS3 Project**, which was a risk and PnL aggregation and reporting tool that brought together daily valuations and risk together with trade details from a variety of different risk and trade sources for use by downstream groups (margin management, risk controlling, accounts etc).
 
-MIS3 is notable because it used the *Inversion Of Control* pattern (which was new at the time) in the Apache Avalon container (a precursor to **Spring**).  MIS3 was horizontally scalable, distributed and redundant.
+MIS3 is notable because it used the *Inversion Of Control* pattern (which was new at the time) in the **Apache Avalon container** (a precursor to **Spring**).  MIS3 was horizontally scalable, distributed and redundant.
 
-Later on, I helped design an **Oracle data warehouse** for MIS3 data.  MIS3 continues to be a key strategic system at Deutsche Bank.  Apparently, they’ve barely changed the code I wrote *twenty years ago*.  Just lazy.
+Later on, I helped design an **Oracle data warehouse** for MIS3 data.  MIS3 continues to be a key strategic system at Deutsche Bank.  Apparently, they’ve barely changed the code I wrote nearly *twenty years ago*.  Just lazy. :)
 
-Finally,  I Provided mentoring, and project leadership for offshore staff in Spain and was made a member of Deutsche Bank’s talent programme.
+Finally,  I provided mentoring and project leadership for offshore staff in Spain, and was made a member of Deutsche Bank’s talent programme.
 
 ### Royal Bank of Scotland Mar. 2005 – Sept. 2010
 
@@ -119,19 +119,19 @@ Finally,  I Provided mentoring, and project leadership for offshore staff in Spa
 - Dave Brimley
 [/aside]
 
-When I started, **Basel II** was beginning to be rolled out worldwide for banks, and there was a hard deadline of compliance by the end of 2005.  I joined as tech lead on *E**, which was RBS’s investment bank implementation of Basel II - so a very critical project.   However, the project manager left, so I assumed this role too and delivered E* over it’s 3 releases.
+When I started, **Basel II** was beginning to be rolled out worldwide for banks, and there was a hard deadline of compliance by the end of 2005.  I joined as tech lead on * E* *, which was RBS’s investment bank implementation of Basel II - so a very critical project.   When the project manager left, I assumed this role too and delivered E* over it’s 3 releases.
 
 E* used **Java, Spring, Sybase, JMS and Hibernate**, and it was here I started building functional tests using Excel.  This technique  was then adopted across future projects in Risk.  (In fact, this is broadly the approach used in my open-source [Concordion Excel Extension](https://github.com/concordion/concordion-excel-extension).)
 
 My second role was PM and Tech Lead on **Gateway**: a limit-checking service for prime brokerage clients, with high-frequency, low-latency requirements.  As well as using **XStream, RMI, Java, Spring, Servlets**, we used **Coherence**, and it was the first project at RBS to make use of this.  Back in 2006, the idea of eventually-consistent caching and distributed systems were fairly novel, but now they are broadly accepted and there are much better options than Coherence today.
 
-The third project I worked on was Repo VaR, an imaginatively titled project for calculating exposure on Repo-style products using a VaR (Value at Risk) methodology.  Again, this was another critical Basel II project:  without this, the bank relied on the more capital-intensive haircut approach, but with RepoVaR we got sign-off from the FSA (Financial Services Agency) to use our own internal model which was less capital intensive.
+The third project I worked on was **Repo VaR**, an imaginatively titled project for calculating exposure on Repo-style products using a **VaR (Value at Risk) methodology**.  Again, this was another critical Basel II project:  without this, the bank relied on the more capital-intensive haircut approach, but with RepoVaR we got sign-off from the FSA (Financial Services Agency) to use our own internal model which was less capital intensive.
 
-In conjunction with this, I managed the RepoVaR Back-Testing project.  In order to get a model FSA approved, you have to back-test it.  I built the back-testing software, which looked back through time to check that for a given historic period, our model’s predictions were correct.
+In conjunction with this, I managed the **RepoVaR Back-Testing** project.  In order to get a model FSA approved, you have to back-test it.  I built the back-testing software, which looked back through time to check that for a given historic period, our model’s predictions were correct.
 
 Once in production, we discovered flaws in the methodology of our backtesting, but with a comprehensive understanding of the repo product family and how VaR was calculated for them, I was able to specify and then engineer a new back-testing calculation to avoid these breaks by manipulating the portfolio cash flows to reflect how the portfolio changed after the VaR was originally calculated.
 
-Led the introduction of new software build techniques to Risk:  ***Maven, Cruise Control** and automated regression testing and unit testing and was made a member of Royal Bank of Scotland’s talent programme.
+Led the introduction of new software build techniques to Risk:  **Maven, Cruise Control** and automated regression testing and unit testing and was made a member of Royal Bank of Scotland’s talent programme.
 
 ### Aura Software Sept. 2010 - Oct. 2014
 
@@ -139,13 +139,11 @@ Led the introduction of new software build techniques to Risk:  ***Maven, Cruise
 
 Once I started a family, I wanted to spend less time commuting into London, so during this period I worked at home as a consultant and partner in Aura Software, who built learning software portals mainly in the medical equipment industry.
 
-I was tech lead on a project involving a distributed team to build a custom Learning Management System (LMS) for Medtronic, a Fortune 500 medical equipment manufacturer.   We used various technologies including *Javascript, jQuery, XML, JSON, Git, PHP, Wordpress, Ruby and Java*.  LMS systems are generally *terrible*, so by using modern tools and techniques we were able to knock this out of the park.
+I was tech lead on a project involving a distributed team to build a custom **Learning Management System** (LMS) for **Medtronic**, a Fortune 500 medical equipment manufacturer.   We used various technologies including **Javascript, jQuery, XML, JSON, Git, PHP, Wordpress, Ruby and Java**.  LMS systems are generally *terrible*, so by using modern tools and techniques we were able to knock this out of the park.
 
 Since this was a small operation, I had to wear multiple hats.   As well as development, I organised testing strategy & test plans, performed releases, wrote documentation and handled requirements capture.  This last one was pretty important as there were multiple stakeholders, and little understanding of good project management practice before I got involved.
 
-We rolled out various successful web-based projects for clients within the medical / online learning sectors.  One to facilitate neurosurgeon training, another a portal for management of sales team training.  A big part of our success was leveraging existing software within the Wordpress eco-system, and only building the *novel* LMS parts.   Ultimately, though, I disagreed with the way we should take the company and we decided to part ways.
-
-### Royal Bank of Scotland Mar. 2005 – Sept. 2010
+We rolled out various successful web-based projects for clients within the medical / online learning sectors.  One to facilitate neurosurgeon training, another a portal for management of sales team training.  A big part of our success was leveraging existing software within the **Wordpress** eco-system, and only building the *novel* LMS parts.
 
 ### Credit Suisse Oct. 2014 / Present
 
@@ -156,12 +154,12 @@ We rolled out various successful web-based projects for clients within the medic
 - Rob Hutton
 [/aside]
 
-Initially, I was hired to Credit Suisse to work on a project called DSL (Data Service Layer).  The aim of this project was to provide a unified Java API to access domain objects from various golden-source databases within the credit risk department.   The project was in full swing when I arrived, but had broken build scripts and no automated testing, so I fixed these first, implementing a single build in Gradle and building out a test framework to check each API method against each database.
+Initially, I was hired to Credit Suisse to work on a project called **DSL** (Data Service Layer).  The aim of this project was to provide a unified Java API to access domain objects from various golden-source databases within the credit risk department.   The project was in full swing when I arrived, but had broken build scripts and no automated testing, so I fixed these first, implementing a single build in **Gradle** and building out a test framework to check each API method against each database.
 
-Confusingly, the DSL project then became part of the REF project (a common infrastructure for calculations in credit risk).  I built out REF configuration and automated deployment and worked to set architectural standards for the components built using this.
+Confusingly, the DSL project then became part of the **REF** project (a common infrastructure for calculations in credit risk).  I built out REF configuration and automated deployment and worked to set architectural standards for the components built using this.
 
-Off the back of this, I was given a team of ten or so summer students from UCL to build a proof-of-concept of a testing framework for the Scenarios system.  (Scenarios are where we run the risk calculations under extreme conditions, to see what the effect would be on the bank’s capital.)   Despite the fact that this was a new area to pretty much all of us, we were able to demonstrate functional tests of scenarios VaR calculations.
+Off the back of this, I was given a team of ten or so summer students from UCL to build a proof-of-concept of a testing framework for the **Scenarios** system.  (Scenarios are where we run the risk calculations under extreme conditions, to see what the effect would be on the bank’s capital.)   Despite the fact that this was a new area to pretty much all of us, we were able to demonstrate functional tests of scenarios VaR calculations.
 
-I then ran a team tasked to build out functional testing for the Strategic Back-Testing project.  Although I’d done back-testing before at RBS, the methodology had advanced *a lot*, and used some interesting new statistical tests (such as Cramer-von-Mises and P-Values).  We built Excel-based example tests using the Concordion Excel Extension, and ran them against the Backtesting code to assert the calculations were correct in the production system.
+I then ran a team tasked to build out functional testing for the **Strategic Back-Testing** project.  Although I’d done back-testing before at RBS, the methodology had advanced *a lot*, and used some interesting new statistical tests (such as Cramer-von-Mises and P-Values).  We built Excel-based example tests using the Concordion Excel Extension, and ran them against the Backtesting code to assert the calculations were correct in the production system.
 
-After completing this, I moved back into the DSL team.  As there had been a series of owners who had been under extreme time constraints, and the integrity of the original system had been lost.  With a colleague, we rewrote the whole thing in about 3 months using **JPA** and **Spring**.  We reversed some of the original architectural errors too, making it leaner, simpler and more performant.
+After completing this, I moved back into the **DSL** team. There had been a series of owners and some extreme deadlines and the integrity of the original system had been lost.  With a colleague, we rewrote the whole thing in about 3 months using **JPA** and **Spring**.  We reversed some of the original architectural errors too, making it leaner, simpler and more performant.
