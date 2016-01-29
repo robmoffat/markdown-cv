@@ -1,4 +1,4 @@
-# Rob Moffat 
+# Rob Moffat
 
 ## Profile
 
@@ -8,130 +8,160 @@
 - Blog: http://robmoff.at
 - Twitter: @bobm_kite9
 - Github: https://github.com/robmoffat
+- LinkedIn:
 
 [/aside]
 
-I am a full stack developer, based in London or Essex.  I Specialize in build automation, automated functional testing and financial calculations.
-I have done project management in the past when required, but I best fit as the development lead of a team, a job which I’ve now done in various
-banking roles and elsewhere.
+## About Me
+
+Looking back while writing this CV makes me realise that in most of my jobs I’ve commonly taken on two tasks:  fixing broken build systems and introducing automated testing.   You could take it to mean that this is my speciality, but in actual fact I’m always relieved to work in a team that had already figured this stuff out.   Despite Agile methodologies having been with us for over 15 years, it seems like lots of teams still struggle to realise the benefits of these techniques.
+
+Truth is, I I like to help teams to work better.  I’m happiest taking on the dev lead role, as this gets me closest to the hardest problems the Dev team is facing.  I’ve also done Project Management when needed over the years too, but I don’t think this is where I add the greatest value:  Although I have an MBA, it’s just not leveraging my technical skills.
+
+Most of my recent work has been within Risk teams in banks (I live near London), though I’ve worked in various consultancies too.
+
+I am still just as obsessed with computers now as I was aged 10.  Lately I’ve been into Recurrent Neural Networks and Pure Functional Programming on the JVM.
 
 ## Qualifications
 
--	First in B.Sc. (Hons.) Computer Science at Aston University (1997).
--	MBA (Hons.) at Warwick Business School (2007) 
--	Certified Java Enterprise Architect
-- 	Certified Java Developer 
-- 	4 A Levels, 8 A Grade GCSEs.
+- First in B.Sc. (Hons.) Computer Science at Aston University (1997).
+- MBA (Hons.) at Warwick Business School (2007)
+- Certified Java Enterprise Architect
+- Certified Java Developer
+- 4 A Levels, 8 A Grade GCSEs.
 
-## Summary of Skills
+## My Own Projects
 
-- 11 years experience as senior developer on Java projects in investment banks.
-- 18 years experience in analysis, design and development of software applications.
-- Experience developing Java solutions continuously since 2000.
-- In-depth understanding and experience of database architecture and optimisation techniques (Oracle, MySQL,  Sybase).
-- Experienced tech-lead and mentor over many java projects, employing agile methods (like XP) with a variety of team sizes and ability levels.
-- Experience with all manner of Java technologies such as: Hibernate, JPA, Ant, Maven, Gradle, Tomcat, Data Synapse, Oracle Coherence, Spring, Amazon EC2.
-- Front end technologies:  Grails, WebSockets, React, Bootstrap, Spring Web, REST (HATEOAS) via Spring, 
-- Experience building and debugging applications using JavaScript, jQuery, SVG, JSONP, CSS3, HTML5, WordPress, Drupal, PHP.
-- Used to dealing with large, complex, long-running Risk / Regulatory projects with multiple stakeholders and distributed teams.
-- Lots of experience as the technical lead on complex multi-client projects.
+### [Concordion](http://github.com/concordion/concordion-excel-extension)
 
-## My Open-Source Projects
+**Concordion** is a functional testing framework for Java (like a streamlined **Fitnesse**, if you’ve used that).  I wrote an extension for Concordion (A Java Functional Testing Framework) to make it more suitable for testing financial calculations.
 
-(see github for further details)
+Business Analysts in banks understand **Excel**.   Therefore, why not get them to write test cases in Excel?  These can be parsed as functional test examples by my extension, so you can ensure that the Java code under test is getting the answers the same as the Excel spreadsheet example.
 
-### Concordion
+### [Pure4J](https://github.com/pure4j/pure4j)
 
-I wrote an extension for Concordion (A Java Functional Testing Framework) to make it more suitable for testing financial calculations.   Calculations
-are demonstrated on Excel spreadsheets (owned by Business Analysts) and are used to form the functional test cases of the project. 
+I’ve been interested recently in **Clojure** (a Lisp on Java's JVM) and **Frege** (a Haskell on the JVM) as ways of improving productivity and program correctness.  Frege especially espouses a pure functional approach to programming, a style which eradicates state within your application, making  testing easier and reducing the places where bugs can hide.
 
-### Pure4J
+Asking developers in finance to learn Haskell is a big ask: everyone already knows Java.   Pure4J is a Java code analysis tool for ensuring functional purity within a codebase, giving you the advantages of this style of programming without having to learn a new language.  Pure4J comes with the immutable, persistent collections from Clojure, adapted to use generics and normal Java idioms.
 
-A Java code analysis tool for ensuring functional purity within a codebase.  Functionally pure software is less error-prone and orders of magnitude
-easier to test, but usually you have to learn a new language such as Haskell to do it.  This tool allows you to use Java instead, limiting what you 
-can do.
+### Kite9
 
-### Kite9 (in development)
+[aside]
+> With Kite9 Rob's pulled off a rare double of having an ambitious technical vision and the focus and tenacity to get that vision built and launched. I love the tool too; Kite9 is crazy good.
+- Bret Weinraub (partner at Aura Software)
+[/aside]
 
-Kite9 is a online software diagramming tool that (unlike say Visio) organises the layout of the diagrams for you.   You can try it at [Kite9.com](http://kite9.com).
-Server side was Java, SpringMVC, IBATIS, MySQL running on Amazon EC2/Linode.  Client side written with jQuery, Grails, SVG, Bootstrap.
+Kite9 is a online software diagramming tool that (unlike say **Visio**) organises the layout of the diagrams for you.
 
-•	Made technical decisions regarding choices of technologies in-browser. Used Javascript, jQuery, RaphaelJS, HTML5, SVG.  Communicating via XML protocol (XStream, XMLSchema, AJAX, JSONP).
-•	Set up Hudson (Jenkins), Maven build process with large suite of functional/JUnit tests. 
+Kite9 uses some cool technologies like **Grails, Bootstrap, SVG** and **jQuery**.  But the most interesting part is the graph layout.  Graph layout is a well-researched problem, but none of the algorithms in the literature had the functionality I wanted to see.  Kite9 uses a bespoke graph layout algorithm based on published approaches, but taken in new directions to give the user more control over the positioning of the elements.
+
+You can try it at [Kite9.com](http://kite9.com).  It’s pretty fun to use, but still in development.
 
 ## Professional Experience
 
-### Credit Suisse Oct. 2014 / Present
+[aside]
+Note:  this is in chronological order-  it just makes more sense that way.  But feel free to skip a page or so to get to the recent stuff.
+[/aside]
 
-#### 
+### Early Career Sept. 1997 - Oct 2001
 
+#### Datix
 
+After graduating, I started work at a firm called **Datix** in London.  They built software for legal firms, and I worked on building two internal **Lotus Notes** databases.  One for tracking marketing information and the other for storing legal news, articles, precedents and so on.  Although I was new to all this, they just let me get on with it, and I learnt a lot.   Eventually, they began to market these tools to other law firms, but by then it was time to move on for me.
 
+#### Agora
 
+I worked for a Lotus Notes consultancy called **Agora** next in Kingston (nr. London, not Jamaica).  We were building a database for tracking patient records for the NHS.  In retrospect (and even at the time, really), this was a dreadful misuse of Lotus Notes, and the project was obviously going to fail.  Nevertheless, this was an excellent environment for learning new ideas, and I started using **Java, XML and relational databases** here.
 
-### Aura Software Sept. 2010 - Oct. 2014
+#### PriceWaterhouseCoopers
 
-#### Partner
+I worked briefly at **PriceWaterhouseCoopers**, on their global website.  I mainly helped by automating the process of scooping out content from their existing web pages, so that it could be ported into the new design.   Sadly, this project got cancelled pretty quickly.
 
-Over the last 3 years I have spent time away from the finance industry bringing up my young family.  However, I continued to work on various projects as a part-time consultant (and partner) in Aura Software, who built learning software portals mainly in the medical equipment industry.
- 
-- I was tech lead on a project involving a distributed team to build a custom Learning Management System for Medtronic, a Fortune 500 medical equipment manufacturer (including: Javascript, jQuery, XML, JSON, Git, PHP, Wordpress).  LMS systems are generally *terrible*, so by using modern tools and techniques we were able to knock this out of the park.
-- Organised testing strategy & test plans, performed releases, wrote documentation and handled requirements capture.  This was pretty important as there were multiple stakeholders, and little understanding of good project management practice before I got involved.   
-- Architected and rolled out various successful web-based projects for clients within the medical / online learning sectors.  One to facilitate neurosurgeon training, another a portal for management of sales team training.  
-### Royal Bank of Scotland Mar. 2005 – Sept. 2010
+#### WideLearning
 
-#### Java Tech Lead in Global Banking and Market’s Risk Team.
+Next, I worked for **Wide Learning**, a Purveyor of online software courses.  Theirs was the typical story of .com excess, where they received huge amounts of funding one day, and then had to sell up when the market turned against them.
 
-- Tech Lead on *E**: a Basel II Exposure At Default application using Java, Spring, Sybase, JMS, Hibernate - for 3 successful releases.  Guided developers’ choices in the architectural decisions and technologies used on this project.  This project was *critical* to RBS meeting the Basel II standards.  
-- Introduced new functional testing techniques to ensure code was consistent with specifications by integrating Excel and JUnit tests using Apache POI.  This allowed better separation of the business analyst and developer roles within the E* project.  This approach was then adopted across future projects in Risk.  (In fact, this is broadly the approach used in the now open-source [Concordion Excel Extension](https://github.com/concordion/concordion-excel-extension)
-- I introduced inversion-of-control (using Spring) to the Risk Department, adopted thereafter on several new projects.   This was kind of new back in 2005, but it’s pretty much the de-facto pattern now.
-- Led the introduction of new software build techniques to Risk:  Maven, Cruise Control and automated regression testing and unit testing. 
-- Introduced Oracle Coherence to Risk by architecting and delivering Gateway, a limit-checking service for prime brokerage clients, with high-frequency, low-latency requirements (XStream, RMI, Java, Spring, Servlets).  Again, back in 2006, the idea of eventually-consistent caching and distributed systems were fairly novel.  They are now broadly accepted and there are much better options than Coherence today.
-- Project-Managed and delivered the long-running Basel II RepoVaR project over several releases, defining GBM’s internal model approach using VaR for Repo-style products (inc. DataSynapse).  Again, this was another critical Basel II project:  without this, the bank relied on the more capital-intensive haircut approach, but with RepoVaR we got sign-off from the FSA to use our own internal model which was less capital intensive.
-- RepoVaR Back-Testing:  In order to get a model approved, you have to back-test it.  I was tech lead building the back-testing software, which looked back through time to check that for historic periods, our model’s predictions were correct.
-- Specified and developed an approach to close large breaks in RepoVaR back-testing.  This involved a comprehensive understanding of the repo product family and how VaR was calculated for them, and then engineering a new back-testing calculation to avoid these breaks by manipulating the portfolio cash flows to reflect how the portfolio changed after the VaR was originally calculated.
-- Made a member of Royal Bank of Scotland’s talent programme.
+I worked on the implementation of Wide’s e-learning Content Delivery System, the purpose of which was to render courseware that tailors learning content to the requirements of the student.  We used **Java, J2EE and WebLogic**.  (And Enterprise Java Beans (EJBs) which seemed like a good idea at the time.)
+
+#### RI3K
+
+Finally I worked for **RI3K** (now part of Qatar Insurance Services), who were creating an application for trading reinsurance contracts.  They had chosen **Java, WebLogic, EJB, Oracle**  and extensively used **XSLT** for rendering user interfaces.
+
+I Put in place a build process managing all the deployment platforms, (on NT, Linux and HPUX using **Apache**, **Tomcat** and **CapeClear**) for UK and Singapore versions and rolled out periodically to these sites.  Also, I developed several areas of the system, including Contracts and negotiation workflows, working closely with in-house experts.
 
 ### Deutsche Bank Feb. 2002 – Mar. 2005
 
 #### Tech Lead in the Risk and PnL Reporting Team.
 
-- Tech lead on the *MIS3 Project*: This was a risk and PnL aggregation and reporting tool that brought together daily valuations and risk together with trade economics from a variety of different risk and trade sources for use by downstream groups (around 10 groups, including margin management, risk controlling, accounts etc).
-- Architected MIS3 in a scalable, distributed, redundant way using the Inversion of Control pattern using Apache Avalon (a precursor to Spring) and J2EE.
-- MIS3 continues to be a key strategic system at Deutsche Bank.  Apparently, they’ve barely changed the code I wrote *twenty years ago*.  Just lazy.
-- Developed and delivered a complete global redesign and rollout of risk’s website in 5 regions (Java Servlets, JSP, Sybase).
-- Helped design and procure and architect the Oracle data warehouse for MIS3.  
-- In 2002, I introduced improved development practices to Risk: bringing all source code under source control in VSS (later moved to CVS), with a single build process using Ant, as well as introducing the Eclipse IDE to the Risk IT team.
-- Provided mentoring, and project leadership for offshore staff in Spain.
-- Made a member of Deutsche Bank’s talent programme.
-
-### Contractor at RI3K as J2EE Developer July 01 - Oct. 01
+[aside]
+Rob was an enthusiastic and knowledgeable member of the team who was always keen to investigate new technology when providing solutions. He has an affable nature and is an excellent communicator of ideas. It would be great to work with Rob again in the future.
+- Laurence May
+[/aside]
+
+Shortly after starting, I introduced improved development practices to the team by bringing all source code under source control in VSS (later moved to CVS), with a single build process using Ant, as well as introducing Eclipse IDE, which was a new thing back then.  Later, we would move everything to Maven, but I left before we completed this.
+
+I Developed and delivered a complete global redesign and rollout of risk’s website in 5 regions (***Java Servlets, JSP, Sybase**), based on the Deutsche Look-And-Feel guidelines.  I built a JSP tag library for all of the Deutsche interface elements, so other people could do the same with their websites.
+
+I was Tech lead and architect on the **MIS3 Project**, which was a risk and PnL aggregation and reporting tool that brought together daily valuations and risk together with trade details from a variety of different risk and trade sources for use by downstream groups (margin management, risk controlling, accounts etc).
+
+MIS3 is notable because it used the *Inversion Of Control* pattern (which was new at the time) in the Apache Avalon container (a precursor to **Spring**).  MIS3 was horizontally scalable, distributed and redundant.
+
+Later on, I helped design an **Oracle data warehouse** for MIS3 data.  MIS3 continues to be a key strategic system at Deutsche Bank.  Apparently, they’ve barely changed the code I wrote *twenty years ago*.  Just lazy.
+
+Finally,  I Provided mentoring, and project leadership for offshore staff in Spain and was made a member of Deutsche Bank’s talent programme.
+
+### Royal Bank of Scotland Mar. 2005 – Sept. 2010
+
+#### Tech Lead in Global Banking and Market’s Risk Team.
+
+[aside]
+> I reported to Rob whilst working at RBOS on a greenfield Basel II reporting project. The first thing that struck me was Robs energy and drive, he quickly shaped a new team into delivering quality code on tight schedules.
+- Dave Brimley
+[/aside]
+
+When I started, **Basel II** was beginning to be rolled out worldwide for banks, and there was a hard deadline of compliance by the end of 2005.  I joined as tech lead on *E**, which was RBS’s investment bank implementation of Basel II - so a very critical project.   However, the project manager left, so I assumed this role too and delivered E* over it’s 3 releases.
+
+E* used **Java, Spring, Sybase, JMS and Hibernate**, and it was here I started building functional tests using Excel.  This technique  was then adopted across future projects in Risk.  (In fact, this is broadly the approach used in my open-source [Concordion Excel Extension](https://github.com/concordion/concordion-excel-extension).)
+
+My second role was PM and Tech Lead on **Gateway**: a limit-checking service for prime brokerage clients, with high-frequency, low-latency requirements.  As well as using **XStream, RMI, Java, Spring, Servlets**, we used **Coherence**, and it was the first project at RBS to make use of this.  Back in 2006, the idea of eventually-consistent caching and distributed systems were fairly novel, but now they are broadly accepted and there are much better options than Coherence today.
+
+The third project I worked on was Repo VaR, an imaginatively titled project for calculating exposure on Repo-style products using a VaR (Value at Risk) methodology.  Again, this was another critical Basel II project:  without this, the bank relied on the more capital-intensive haircut approach, but with RepoVaR we got sign-off from the FSA (Financial Services Agency) to use our own internal model which was less capital intensive.
+
+In conjunction with this, I managed the RepoVaR Back-Testing project.  In order to get a model FSA approved, you have to back-test it.  I built the back-testing software, which looked back through time to check that for a given historic period, our model’s predictions were correct.
+
+Once in production, we discovered flaws in the methodology of our backtesting, but with a comprehensive understanding of the repo product family and how VaR was calculated for them, I was able to specify and then engineer a new back-testing calculation to avoid these breaks by manipulating the portfolio cash flows to reflect how the portfolio changed after the VaR was originally calculated.
+
+Led the introduction of new software build techniques to Risk:  ***Maven, Cruise Control** and automated regression testing and unit testing and was made a member of Royal Bank of Scotland’s talent programme.
+
+### Aura Software Sept. 2010 - Oct. 2014
+
+#### Partner
+
+Once I started a family, I wanted to spend less time commuting into London, so during this period I worked at home as a consultant and partner in Aura Software, who built learning software portals mainly in the medical equipment industry.
+
+I was tech lead on a project involving a distributed team to build a custom Learning Management System (LMS) for Medtronic, a Fortune 500 medical equipment manufacturer.   We used various technologies including *Javascript, jQuery, XML, JSON, Git, PHP, Wordpress, Ruby and Java*.  LMS systems are generally *terrible*, so by using modern tools and techniques we were able to knock this out of the park.
+
+Since this was a small operation, I had to wear multiple hats.   As well as development, I organised testing strategy & test plans, performed releases, wrote documentation and handled requirements capture.  This last one was pretty important as there were multiple stakeholders, and little understanding of good project management practice before I got involved.
+
+We rolled out various successful web-based projects for clients within the medical / online learning sectors.  One to facilitate neurosurgeon training, another a portal for management of sales team training.  A big part of our success was leveraging existing software within the Wordpress eco-system, and only building the *novel* LMS parts.   Ultimately, though, I disagreed with the way we should take the company and we decided to part ways.
+
+### Royal Bank of Scotland Mar. 2005 – Sept. 2010
+
+### Credit Suisse Oct. 2014 / Present
 
 #### Consultant
 
-RI3K created a cutting-edge B2B application for trading reinsurance contracts.  My contract spanned the final stages of development and launch.  Now part of Qatar Insurance Services.
-
-- Put in place a build process managing all the deployment platforms, (on NT, Linux and HPUX using Apache, Tomcat and CapeClear) for UK and Singapore versions and rolled out periodically to these sites.
-- Developed several areas of the system (using Java, WebLogic, EJB, Oracle and extensive XSLT), including Contracts and negotiation workflows, working closely with in-house experts.  
-
-
-### Contractor at Wide Learning May 99 – June 01
-
-Purveyor of online software courses.  Sold after the .com crash.
-
-- I upgraded the company’s intranet software using servlets, XML and XSLT.  
-- As developer, helped design and implement Wide’s e-learning Content Delivery System, allowing Wide to real-time render courseware that tailors learning content to 
-the requirements of the student (Java, EJB, J2EE, WebLogic).
-
 [aside]
-#### References
-##### Matthew Harris (matt.r.harris@gmail.com)
-- Consultant Programme Manager and Architect, Barclays Capital 
-- (Manager whilst in Risk Reporting Team, Deutsche Bank)
-##### Andrew Spruce (andrew.spruce@gmail.com)
-- Global Head of Rates Trade Capture and Clearing at Barclays Capital
-- (Colleague on E* project whilst at RBS) 
-##### Tim Hedger (tim.hedger@rbs.com)
-- Head of Control & Assurance at Royal Bank of Scotland
-- (Head of Risk IT while on E* project at RBS)
+> Rob joined us on the DSL team and was instrumental in the successful redesign/rewrite in under three months...
+- Rob Hutton
 [/aside]
+
+Initially, I was hired to Credit Suisse to work on a project called DSL (Data Service Layer).  The aim of this project was to provide a unified Java API to access domain objects from various golden-source databases within the credit risk department.   The project was in full swing when I arrived, but had broken build scripts and no automated testing, so I fixed these first, implementing a single build in Gradle and building out a test framework to check each API method against each database.
+
+Confusingly, the DSL project then became part of the REF project (a common infrastructure for calculations in credit risk).  I built out REF configuration and automated deployment and worked to set architectural standards for the components built using this.
+
+Off the back of this, I was given a team of ten or so summer students from UCL to build a proof-of-concept of a testing framework for the Scenarios system.  (Scenarios are where we run the risk calculations under extreme conditions, to see what the effect would be on the bank’s capital.)   Despite the fact that this was a new area to pretty much all of us, we were able to demonstrate functional tests of scenarios VaR calculations.
+
+I then ran a team tasked to build out functional testing for the Strategic Back-Testing project.  Although I’d done back-testing before at RBS, the methodology had advanced *a lot*, and used some interesting new statistical tests (such as Cramer-von-Mises and P-Values).  We built Excel-based example tests using the Concordion Excel Extension, and ran them against the Backtesting code to assert the calculations were correct in the production system.
+
+After completing this, I moved back into the DSL team.  As there had been a series of owners who had been under extreme time constraints, and the integrity of the original system had been lost.  With a colleague, we rewrote the whole thing in about 3 months using **JPA** and **Spring**.  We reversed some of the original architectural errors too, making it leaner, simpler and more performant.
