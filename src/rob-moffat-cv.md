@@ -79,9 +79,9 @@ I worked briefly at **PriceWaterhouseCoopers**, on their global website.  I main
 
 #### Wide Learning
 
-Next, I worked for **Wide Learning**, a Purveyor of online software courses.  Theirs was the typical story of .com excess, where they received huge amounts of funding one day, and then had to sell up when the market turned against them.
+Next, I worked for **Wide Learning**, a purveyor of online software courses.  Theirs was the typical story of .com excess, where they received huge amounts of funding one day, and then had to sell up when the market turned against them.
 
-I worked on the implementation of Wide’s e-learning Content Delivery System, the purpose of which was to render courseware that tailors learning content to the requirements of the student.  We used **Java, J2EE and WebLogic**.  (And **Enterprise Java Beans (EJBs)** which seemed like a good idea at the time.)
+I worked on the implementation of Wide’s e-learning Content Delivery System, the purpose of which was to render courseware that tailors learning content to the requirements of the student.  We used **Java, J2EE and WebLogic**.  And **Enterprise Java Beans (EJBs)**, which seemed like a good idea at the time.
 
 #### RI3K
 
@@ -98,15 +98,17 @@ I put in place a build process managing all the deployment platforms, (on NT, Li
 - Laurence May
 [/aside]
 
-Shortly after starting, I introduced improved development practices to the team by bringing all source code under source control in **VSS** (later moved to **CVS**), with a single build process using **Ant**, as well as introducing **Eclipse IDE**, which was a new thing back then.  Later, we would move everything to **Maven**, too.
+Shortly after starting, I introduced improved development practices to the team by bringing all source code under source control in **VSS** (later moved to **CVS**), with a single build process using **Ant**, as well as introducing **Eclipse IDE**, which was a new thing back then.  Later, we would move builds to **Maven**, too.
 
-I Developed and delivered a complete global redesign and rollout of risk’s website in 5 regions (**Java Servlets, JSP, Sybase**), based on the Deutsche Look-And-Feel guidelines.  I built a **JSP tag library** for all of the Deutsche interface elements, so other people could do the same with their websites.
+I developed and delivered a complete global redesign and rollout of Risk’s website in 5 regions (**Java Servlets, JSP, Sybase**), based on the Deutsche Look-And-Feel guidelines.  I built a **JSP tag library** for all of the Deutsche interface elements, so other people could do the same with their websites.
 
 I was tech lead and architect on the **MIS3 Project**, which was a risk and PnL aggregation and reporting tool that brought together daily valuations and risk together with trade details from a variety of different risk and trade sources for use by downstream groups (margin management, risk controlling, accounts etc).
 
 MIS3 is notable because it used the *Inversion Of Control* pattern (which was new at the time) in the **Apache Avalon container** (a precursor to **Spring**).  MIS3 was horizontally scalable, distributed and redundant.
 
-Later on, I helped design an **Oracle data warehouse** for MIS3 data.  MIS3 continues to be a key strategic system at Deutsche Bank.  Apparently, they’ve barely changed the code I wrote nearly *twenty years ago*.  Just lazy. :)
+Later on, I helped design an **Oracle data warehouse** for MIS3 data.
+
+MIS3 continues to be a key strategic system at Deutsche Bank.  Apparently, they’ve barely changed the code I wrote nearly *twenty years ago*.  Just lazy. :)
 
 Finally,  I provided mentoring and project leadership for offshore staff in Spain, and was made a member of Deutsche Bank’s talent programme.
 
@@ -119,9 +121,9 @@ Finally,  I provided mentoring and project leadership for offshore staff in Spai
 - Dave Brimley
 [/aside]
 
-When I started, **Basel II** was beginning to be rolled out worldwide for banks, and there was a hard deadline of compliance by the end of 2005.  I joined as tech lead on * E* *, which was RBS’s investment bank implementation of Basel II - so a very critical project.   When the project manager left, I assumed this role too and delivered E* over it’s 3 releases.
+When I started, **Basel II** was beginning to be rolled out worldwide for banks, and there was a hard deadline of compliance by the end of 2005.  I joined as tech lead on *E-Star*, which was RBS’s investment bank implementation of Basel II - so a very critical project.   When the project manager left, I assumed this role too and delivered E-Star over it’s 3 releases.
 
-E* used **Java, Spring, Sybase, JMS and Hibernate**, and it was here I started building functional tests using Excel.  This technique  was then adopted across future projects in Risk.  (In fact, this is broadly the approach used in my open-source [Concordion Excel Extension](https://github.com/concordion/concordion-excel-extension).)
+E-Star used **Java, Spring, Sybase, JMS and Hibernate**, and it was here I started building functional tests using Excel.  This technique  was then adopted across future projects in Risk.  (In fact, this is broadly the approach used in my open-source [Concordion Excel Extension](https://github.com/concordion/concordion-excel-extension).)
 
 My second role was PM and Tech Lead on **Gateway**: a limit-checking service for prime brokerage clients, with high-frequency, low-latency requirements.  As well as using **XStream, RMI, Java, Spring, Servlets**, we used **Coherence**, and it was the first project at RBS to make use of this.  Back in 2006, the idea of eventually-consistent caching and distributed systems were fairly novel, but now they are broadly accepted and there are much better options than Coherence today.
 
