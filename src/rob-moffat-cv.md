@@ -1,18 +1,18 @@
 # Rob Moffat
 
-## Profile
+## About Me
 
 [aside]
+
 #### Contacts
-- robmoffat@mac.com
+
+- Email: robmoffat@mac.com
 - Blog: http://robmoff.at
 - Twitter: @bobm_kite9
 - Github: https://github.com/robmoffat
-- LinkedIn:
+- LinkedIn: https://uk.linkedin.com/in/robmoffat
 
 [/aside]
-
-## About Me
 
 Looking back while writing this CV makes me realise that in most of my jobs I’ve commonly taken on two tasks:  fixing broken build systems and introducing automated testing.   You could take it to mean that this is my speciality, but in actual fact I’m always relieved to work in a team that had already figured this stuff out.   Despite Agile methodologies having been with us for over 15 years, it seems like lots of teams still struggle to realise the benefits of these techniques.
 
@@ -38,6 +38,8 @@ I am still just as obsessed with computers now as I was aged 10.  Lately I’ve 
 
 Business Analysts in banks understand **Excel**.   Therefore, why not get them to write test cases in Excel?  These can be parsed as functional test examples by my extension, so you can ensure that the Java code under test is getting the answers the same as the Excel spreadsheet example.
 
+[page-break/]
+
 ### [Pure4J](https://github.com/pure4j/pure4j)
 
 I’ve been interested recently in **Clojure** (a Lisp on Java's JVM) and **Frege** (a Haskell on the JVM) as ways of improving productivity and program correctness.  Frege especially espouses a pure functional approach to programming, a style which eradicates state within your application, making  testing easier and reducing the places where bugs can hide.
@@ -47,8 +49,10 @@ Asking developers in finance to learn Haskell would be crazy: everyone already k
 ### [Kite9](http://kite9.com)
 
 [aside]
+
 > With Kite9 Rob's pulled off a rare double of having an ambitious technical vision and the focus and tenacity to get that vision built and launched. I love the tool too; Kite9 is crazy good.
 - Bret Weinraub (partner at Aura Software)
+
 [/aside]
 
 Kite9 is a online software diagramming tool that (unlike say **Visio**) organises the layout of the diagrams for you.
@@ -60,7 +64,9 @@ You can try it at [Kite9.com](http://kite9.com).  It’s pretty fun to use, but 
 ## Professional Experience
 
 [aside]
+
 Note:  this is in chronological order-  it just makes more sense that way.  But feel free to skip a page or so to get to the recent stuff.
+
 [/aside]
 
 ### Early Career Sept. 1997 - Oct 2001
@@ -89,13 +95,17 @@ Finally I worked for **RI3K** (now part of Qatar Insurance Services), who were c
 
 I put in place a build process managing all the deployment platforms, (on NT, Linux and HPUX using **Apache**, **Tomcat** and **CapeClear**) for UK and Singapore versions and rolled out periodically to these sites.  Also, I developed several areas of the system, including Contracts and Negotiation workflows, working closely with in-house experts.
 
+[page-break/]
+
 ### Deutsche Bank Feb. 2002 – Mar. 2005
 
 #### Tech Lead in the Risk and PnL Reporting Team.
 
 [aside]
+
 > Rob was an enthusiastic and knowledgeable member of the team who was always keen to investigate new technology when providing solutions. He has an affable nature and is an excellent communicator of ideas. It would be great to work with Rob again in the future.
 - Laurence May
+
 [/aside]
 
 Shortly after starting, I introduced improved development practices to the team by bringing all source code under source control in **VSS** (later moved to **CVS**), with a single build process using **Ant**, as well as introducing **Eclipse IDE**, which was a new thing back then.  Later, we would move builds to **Maven**, too.
@@ -117,8 +127,10 @@ Finally,  I provided mentoring and project leadership for offshore staff in Spai
 #### Tech Lead in Global Banking and Market’s Risk Team.
 
 [aside]
+
 > I reported to Rob whilst working at RBOS on a greenfield Basel II reporting project. The first thing that struck me was Robs energy and drive, he quickly shaped a new team into delivering quality code on tight schedules.
 - Dave Brimley
+
 [/aside]
 
 When I started, **Basel II** was beginning to be rolled out worldwide for banks, and there was a hard deadline of compliance by the end of 2005.  I joined as tech lead on *E-Star*, which was RBS’s investment bank implementation of Basel II - so a very critical project.   When the project manager left, I assumed this role too and delivered E-Star over it’s 3 releases.
@@ -152,8 +164,10 @@ We rolled out various successful web-based projects for clients within the medic
 #### Consultant
 
 [aside]
+
 > Rob joined us on the DSL team and was instrumental in the successful redesign/rewrite in under three months...
 - Rob Hutton
+
 [/aside]
 
 Initially, I was hired to Credit Suisse to work on a project called **DSL** (Data Service Layer).  The aim of this project was to provide a unified Java API to access domain objects from various golden-source databases within the credit risk department.   The project was in full swing when I arrived, but had broken build scripts and no automated testing, so I fixed these first, implementing a single build in **Gradle** and building out a test framework to check each API method against each database.
