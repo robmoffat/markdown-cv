@@ -18,8 +18,8 @@ p, li, .block, .aside{
 /* Typography */
 
 body{
-	font-family: 'Eras Medium ITC';
-	font-size:12px;
+	/*font-family: 'Eras Medium ITC'; */
+	font-size:15px;
 	line-height:1.3em;
 	padding-left:25px;
 	padding-right:10px;
@@ -45,7 +45,7 @@ h1{
 }
 
 h2{
-	font-size:24px;
+	font-size:26px;
 	padding-top:0.3em;
 	padding-bottom:0.3em;
 	margin-top:1.4em;
@@ -53,11 +53,11 @@ h2{
 }
 
 h3{
-	font-size:18px;
+	font-size:20px;
 }
 
 h4{
-	font-size:16px;
+	font-size:18px;
 	margin: 0.5em 0;
 }
 
@@ -79,7 +79,7 @@ a{
 
 .aside{
 	float:right;
-	width:184px;
+	width:230px;
 	background-color:#eee;
 	margin: 0 0 4px 20px;
 	padding: 6px 14px;
