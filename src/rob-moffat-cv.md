@@ -58,13 +58,13 @@ Asking developers in finance to learn Haskell would be crazy: everyone already k
 
 “With Kite9 Rob's pulled off a rare double of having an ambitious technical vision and the focus and tenacity to get that vision built and launched. I love the tool too; Kite9 is crazy good.”
 
-*Bret Weinraub (partner at Aura Software)*
+*Bret Weinraub, partner at Aura Software (from LinkedIn)*
 
 [/aside]
 
 Kite9 is a online software diagramming tool that (unlike say **Visio**) organises the layout of the diagrams for you.
 
-Kite9 uses some cool technologies like **Grails, Bootstrap, SVG** and **jQuery**.  But the most interesting part is the graph layout.  Graph layout is a well-researched problem, but none of the algorithms in the literature had the functionality I wanted to see.  Kite9 uses a bespoke graph layout algorithm based on published approaches, but taken in new directions to give the user more control over the orientation of the elements.
+Kite9 uses some interesting technologies like **Grails, Bootstrap, SVG** and **jQuery**.  But the most interesting part is the graph layout.  Graph layout is a well-researched problem, but none of the algorithms in the literature had the functionality I wanted to see.  Kite9 uses a bespoke graph layout algorithm based on published approaches, but taken in new directions to give the user more control over the orientation of the elements.
 
 You can try it at [Kite9.com](http://kite9.com).  It’s pretty fun to use, but still in development.
 
@@ -136,11 +136,11 @@ I put in place a build process managing all the deployment platforms, (on NT, Li
 
 [aside]
 
-Rob was an enthusiastic and knowledgeable member of the team who was always keen to investigate new technology when providing solutions. 
+"Rob was an enthusiastic and knowledgeable member of the team who was always keen to investigate new technology when providing solutions. 
 
 He has an affable nature and is an excellent communicator of ideas. It would be great to work with Rob again in the future.”
 
-*Laurence May*
+*Laurence May (from LinkedIn)*
 
 [/aside]
 
@@ -172,7 +172,7 @@ Finally,  I provided mentoring and project leadership for offshore staff in Spai
 
 The first thing that struck me was Robs energy and drive, he quickly shaped a new team into delivering quality code on tight schedules.”
 
-*Dave Brimley*
+*Dave Brimley (from LinkedIn)*
 
 [/aside]
 
@@ -218,7 +218,7 @@ We rolled out various successful web-based projects for clients within the medic
 
 “Rob joined us on the DSL team and was instrumental in the successful redesign/rewrite in under three months…”
 
-*Rob Hutton*
+*Rob Hutton (from LinkedIn)*
 
 [/aside]
 
@@ -234,3 +234,4 @@ I then ran a team tasked to build out functional testing for the **Strategic Bac
 
 After completing this, I moved back into the **DSL** team. There had been a series of owners and some extreme deadlines and the integrity of the original system had been lost.  With a colleague, we rewrote the whole thing in about 3 months using **JPA** and **Spring**.  We reversed some of the original architectural errors too, making it leaner, simpler and more performant.
 
+*Online version: https://github.com/robmoffat/markdown-cv/blob/master/src/rob-moffat-cv.md*
