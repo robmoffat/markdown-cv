@@ -9,8 +9,8 @@
  -	4 A Levels, 8 A Grade GCSEs
 
 ## Summary ##
+ - I am a seasoned Senior Developer or Tech Lead with a passion for testing, quality and build systems. 
  - I have recently been working at HSBC delivering two projects as one-man-teams, whilst at Credit Suisse I was leading a testing team within a wider credit-risk back-testing project.
- - I am a seasoned Java Developer and Tech Lead with a passion for testing, quality and build systems. 
  - I am confident communicating technical ideas.  I write _lots_ of technical documentation,  and I'm happy running workshops or giving presentations if required.
  - I have wide experience of CI tools like Jenkins/Hudson, Team City, Gradle, GIT and Maven.  I'm usually the guy who ends up fixing the builds.
  - I am experienced in writing testable requirements documentation, and negotiating sign-off processes.
