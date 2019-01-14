@@ -46,18 +46,22 @@ Symphony is a secure chat messaging system being developed by a consortium of fi
 
 - I build an **Apache Solr** and **Spring Boot** based application for Symphony which indexed HSBC Global Research publications, making them searchable and shareable from Symphony chats.
 - It used a **Javascript React and Redux** front-end, with tests written in **Jest** and **Selenium**.
-- Search results from the app were qualitatively better than those from the existing Global Research search engine, so at the time I left the plan was to switch the website to use the same search engine.
+- Search results from the app were qualitatively better than those from the existing Global Research search engine, so at the time I left, the plan was to switch the website to use the same search engine.
 - Although built for internal use, the Global Research team tasked me with rolling this out to Symphony users in other institutions too.  [Here is a promotional video HSBC made for the app launch.](https://players.brightcove.net/1311491902001/default_default/index.html?videoId=5759030978001)  
 
 #### Other Symphony Applications
 
-- As well as building the Research Application, we built a Symphony Bot to respond to user's requests for research articles.  
+- As well as building the app, we built a Symphony bot to respond to user's requests for research articles.  
 - In order to troubleshoot outages and performance problems with Symphony, I built a monitoring dashboard using Spring Boot, Grafana and InfluxDB.
 
 #### Responsive Content Project
 
-- I moved from the Symphony team to the Global Research team after the success of the Symphony App.  They tasked me with building a tool to convert Global Research publications (Microsoft Word documents) into responsive HTML5.
-- Although this was working well in December 2018, the project was shelved due to budgetary problems.  
+- I moved from the Symphony team to the Global Research team after the success of the Symphony app.  They tasked me with building a tool to convert Global Research publications (Microsoft Word documents) into responsive HTML5.
+- Although this was working well in December 2018, the project is now on hold due to budgetary problems.  
+
+[/block]
+
+[block]
 
 ### Credit Suisse (Oct 2013 to May 2015) ###
 
@@ -68,7 +72,7 @@ Symphony is a secure chat messaging system being developed by a consortium of fi
  - I led a project to re-write the Data Service Layer: The original design had three separate Java JVMs, code generated from a **Sparx Enterprise Architect** model and was impossible to debug.  We moved to **Spring / JPA / Hibernate** and made the whole thing a library.  This improved performance and maintainability at the same time.  
  - I devised the configuration and deployment process for all components, and persuaded all the component teams to adopt these standards.  This enabled **Continuous Deployment** for REF.   
  - I removed our **Oracle Coherence** dependency (saving millions of CHF in licensing fees).
- - I worked on the architecture for REF2 (which will be more "buffet" style than the original REF).  For this I built out tutorials covering topics such as **Docker, Azure, REST, Security, Jenkins and Spring Boot** for developers of other projects to follow.
+ - I worked on the architecture for REF2.  For this I built out tutorials covering topics such as **Docker, Azure, REST, Security, Jenkins and Spring Boot** for developers of other projects to follow.
  
 [/block]
 
