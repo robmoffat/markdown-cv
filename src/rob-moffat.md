@@ -19,7 +19,7 @@
  - I've worked in Finance IT for over 10 years, and I'm used to dealing with large, complex, long-running **Risk / Regulatory** projects with multiple stakeholders and distributed teams.
  - I am experienced in writing testable requirements documentation and negotiating sign-off processes.
  - I've got experience with current web technologies such as **JavaScript, SVG, JSON, SCSS, HTML5, React, Redux and Node**. 
- - I've built many relational-backed software systems from the ground up using Oracle, MySQL and Sybase, JPA and Hibernate, and I've got an in-depth understanding of performance optimisation.
+ - I've built many relational-backed software systems from the ground up using **Oracle, MySQL and Sybase, JPA and Hibernate**, and I've got an in-depth understanding of performance optimisation.
 
 [block]   
    
