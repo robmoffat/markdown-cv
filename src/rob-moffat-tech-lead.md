@@ -15,10 +15,8 @@
  - I have wide experience of CI tools like Jenkins/Hudson, Team City, Gradle, GIT and Maven.  I'm usually the guy who ends up fixing the builds.
  - I am experienced in writing testable requirements documentation, and negotiating sign-off processes.
  - I've worked in Finance IT for over 10 years, and I'm used to dealing with large, complex, long-running Risk / Regulatory projects with multiple stakeholders and distributed teams.
- - I studied Lean/Kanban principles on my MBA, and try to apply them to projects I work on. 
- - I've done software project management, but I don't love it enough to want to do it for my job.
  - I've coached agile teams and used Scrum, but I believe team process is usually less important than strong automated testing with Continuous Integration/Delivery practices.  
- - I've got experience with current web technologies such as JavaScript, SVG, JSON, Sass, HTML5, React, Redux and Node. 
+ - I've got experience with current web technologies such as JavaScript, SVG, JSON, SCSS, HTML5, React, Redux and Node. 
  - I've built many relational-backed software systems from the ground up using Oracle, MySQL and Sybase, and I've got an in-depth understanding of performance optimisation.
 
 [block]   
@@ -45,7 +43,7 @@ I put a lot of code on GitHub in my spare time:
 
 Symphony is a secure chat messaging system being developed by a consortium of finance and tech partners including HSBC and other tier 1 banks.  I was hired to build technologies (such as chat-bots) to integrate HSBC systems with Symphony to increase the value of the platform and therefore its internal uptake.
 
-- I build an **Apache Solr** and **Spring Boot** based application for Symphony which indexed HSBC Global Research and made it searchable and shareable from within Symphony.
+- I build an **Apache Solr** and **Spring Boot** based application for Symphony which indexed HSBC Global Research publications, making them searchable and shareable from within Symphony.
 - It used a **Javascript React and Redux** front-end, with tests written in **Jest** and **Selenium**.
 - Search results from the app were qualitatively better than those from the existing Global Research search engine, so at the time I left the plan was to switch the website to use the same search engine.
 - Although built for internal use, Global Research tasked me with rolling this out to Symphony users in other institutions too.  [Here is a promotional video HSBC made for the app launch.](https://players.brightcove.net/1311491902001/default_default/index.html?videoId=5759030978001)  
