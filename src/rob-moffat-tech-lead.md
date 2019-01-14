@@ -39,7 +39,7 @@ I put a lot of code on GitHub in my spare time:
 
 ### HSBC (May 2015 to Dec 2018) ###
 
-_Senior Dev / Project Lead in Symphony Apps team then Global Research Team_
+_Senior Dev / Project Lead in Symphony Team then Global Research Team_
 
 Symphony is a secure chat messaging system being developed by a consortium of finance and tech partners including HSBC and other tier 1 banks.  I was hired to build technologies (such as chat-bots) to integrate HSBC systems with Symphony to increase the value of the platform and therefore its internal uptake.
 
