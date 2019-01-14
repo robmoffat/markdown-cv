@@ -39,6 +39,7 @@ I put a lot of code on GitHub in my spare time:
 
 ### HSBC (May 2015 to Dec 2018) ###
 
+_Senior Dev / Project Lead in Symphony Apps team then Global Research Team_
 
 Symphony is a secure chat messaging system being developed by a consortium of finance and tech partners including HSBC and other tier 1 banks.  I was hired to build technologies (such as chat-bots) to integrate HSBC systems with Symphony to increase the value of the platform and therefore its internal uptake.
 
@@ -64,6 +65,8 @@ Symphony is a secure chat messaging system being developed by a consortium of fi
 [block]
 
 ### Credit Suisse (Oct 2013 to May 2015) ###
+
+_Senior Dev / Team Lead Roles in Credit Risk._
 
 #### REF Team ####
 
@@ -91,7 +94,7 @@ Back Testing was a project built in CS using the REF architecture.
 
 ### Aura Software Sept. 2010 - Oct. 2014
 
-I was variously a Tech Lead, Architect and PM in a small, distributed consultancy building mainly **Learning Management System** (LMS) software for various clients.
+_I was variously a Tech Lead, Architect and PM in a small, distributed consultancy building mainly **Learning Management System** (LMS) software for various clients._
 
 - Applied various technologies on different projects, including **Javascript, Angular, jQuery, XML, JSON, Git, PHP, Wordpress, Ruby and Java**.  (LMS systems are generally *terrible*, so by using modern tools and techniques we were able to demonstrate clear competitive advantages.)
 - Used platforms such as **AWS and Linode** to deploy our applications.
@@ -105,7 +108,7 @@ I was variously a Tech Lead, Architect and PM in a small, distributed consultanc
 
 ### Royal Bank of Scotland Mar. 2005 – Sept. 2010
 
-Project Manager & Tech Lead in Global Banking and Market’s Risk Team.
+_Project Manager & Tech Lead in Global Banking and Market’s Risk Team._
 
 #### E-Star
 
@@ -142,7 +145,7 @@ Project Manager & Tech Lead in Global Banking and Market’s Risk Team.
 
 ### Deutsche Bank Feb. 2002 – Mar. 2005
 
-#### Tech Lead in the Risk and PnL Reporting Team.
+_Tech Lead in the Risk and PnL Reporting Team._
 
 - I developed and delivered a complete global redesign and rollout of Risk’s website in 5 regions using **Java Servlets, JSP and Sybase**, based on the Deutsche Look-And-Feel guidelines.  I built a **JSP tag library** for all of the Deutsche interface elements, so other people could do the same with their websites.
 - I was tech lead and architect on the **MIS3 Project**, which was a risk and PnL aggregation and reporting tool that brought together daily valuations and risk together with trade details from a variety of different risk and trade sources for use by downstream groups (margin management, risk controlling, accounts etc).
