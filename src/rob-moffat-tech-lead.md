@@ -92,7 +92,7 @@ Back Testing was a project built in CS using the REF architecture.
 
 [block]
 
-### Aura Software Sept. 2010 - Oct. 2014
+### Aura Software (Sep 2010 to Oct 2014)
 
 _I was variously a Tech Lead, Architect and PM in a small, distributed consultancy building mainly **Learning Management System** (LMS) software for various clients._
 
@@ -106,7 +106,7 @@ _I was variously a Tech Lead, Architect and PM in a small, distributed consultan
 
 [block]
 
-### Royal Bank of Scotland Mar. 2005 – Sept. 2010
+### Royal Bank of Scotland (Mar 2005 to Sep 2010)
 
 _Project Manager & Tech Lead in Global Banking and Market’s Risk Team._
 
@@ -141,7 +141,7 @@ _Project Manager & Tech Lead in Global Banking and Market’s Risk Team._
 
 [block]
 
-### Deutsche Bank Feb. 2002 – Mar. 2005
+### Deutsche Bank (Feb 2002 to Mar 2005)
 
 _Tech Lead in the Risk and PnL Reporting Team._
 
