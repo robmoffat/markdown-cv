@@ -4,8 +4,8 @@
 
 ## Qualifications ##
 
- -	First in B.Sc. (Hons.) Computer Science at Aston University (1997)
- -	MBA (Hons.) at Warwick Business School (2007) 
+ -	First in B.Sc. (Hons.) Computer Science at Aston University
+ -	MBA (Hons.) at Warwick Business School
  -	Certified Java Enterprise Architect
  -	Certified Java Developer 
  -	4 A Levels, 8 A Grade GCSEs
@@ -16,7 +16,7 @@
  - I am confident communicating technical ideas.  I write _lots_ of technical documentation and I'm happy running workshops or giving presentations if required.
  - I have wide experience of **CI tools** like Jenkins/Hudson, Team City, Gradle, GIT and Maven.  I'm usually the guy who ends up fixing the builds.
  - I've coached agile teams and used Scrum, but I believe team process is usually less important than strong automated testing with Continuous Integration/Delivery practices.  
- - I've worked in Finance IT for over 10 years, and I'm used to dealing with large, complex, long-running **Risk / Regulatory** projects with multiple stakeholders and distributed teams.
+ - I've worked in Finance IT for over 15 years, and I'm used to dealing with large, complex, long-running **Risk / Regulatory** projects with multiple stakeholders and distributed teams.
  - I am experienced in writing testable requirements documentation and negotiating sign-off processes.
  - I've got experience with current web technologies such as **JavaScript, SVG, JSON, SCSS, HTML5, React, Redux and Node**. 
  - I've built many relational-backed software systems from the ground up using **Oracle, MySQL and Sybase, JPA and Hibernate**, and I've got an in-depth understanding of performance optimisation.
@@ -52,6 +52,10 @@ Symphony is a secure chat messaging system being developed by a consortium of fi
 - Search results from the app were qualitatively better than those from the existing Global Research search engine, so at the time I left, the plan was to switch the website to use the same search engine.
 - Although built for internal use, the Global Research team tasked me with rolling this out to Symphony users in other institutions too.  [Here is a promotional video HSBC made for the app launch.](https://players.brightcove.net/1311491902001/default_default/index.html?videoId=5759030978001)  
 
+[/block]
+
+[block]
+
 #### Other Symphony Applications
 
 - As well as building the app, we built a Symphony bot to respond to user's requests for research articles.  
@@ -72,7 +76,7 @@ _Senior Dev / Team Lead roles in Credit Risk._
 
 #### REF Team ####
 
-"REF" is a component framework for building risk and finance calculations at Credit Suisse.  After the departure of the first architects, I took on the role of re-architecting REF, to simplify it and improve reliability:  
+"REF" is a component framework for building risk and finance calculations at Credit Suisse.  After the departure of the first architects, I took on the role of re-architecting REF to simplify it and improve reliability:  
 
  - I led a project to re-write the Data Service Layer: The original design had three separate Java JVMs, code generated from a **Sparx Enterprise Architect** model and was impossible to debug.  We moved to **Spring / JPA / Hibernate** and made the whole thing a library.  This improved performance and maintainability at the same time.  
  - I devised the configuration and deployment process for all components, and persuaded all the component teams to adopt these standards.  This enabled **Continuous Deployment** for REF.   
@@ -88,7 +92,7 @@ _Senior Dev / Team Lead roles in Credit Risk._
 Back Testing was a project built in CS using the REF architecture.  
  
 - I ran a team responsible for building an Automated Testing Framework for REF, and we also took care of building tests specific to the Back Testing project.
-- I ran a weekly workshop for developers and BAs on the Back Testing project to explain methodology and process.  We covered aspects of statistics (**p-Values, Cramer von Mises, Sampling Dots**), testing methodology (mocking, integration testing) and risk methodology (**Monte-Carlo, Historic VaR**) for an audience in multiple regions.
+- I ran a weekly workshop for developers and BAs on the Back Testing project to explain methodology and process.  We covered aspects of statistics such as **p-Values, Cramer von Mises, Sampling Dots**, testing methodology (mocking, integration testing) and risk methodologies like **Monte-Carlo or Historic VaR** for an audience in multiple regions.
 
 [/block]
 
@@ -117,7 +121,7 @@ _Project Manager & Tech Lead in Global Banking and Market’s Risk Team._
 - Architect and Tech Lead on **E-Star**, which was RBS’s investment bank implementation of **Basel II** - a critical project with drop-dead timelines.
 - When the project manager left, I assumed this role too and delivered E-Star over it’s 3 releases.
 - E-Star used **Java, Spring, Sybase, JMS and Hibernate**, and it was here I started building functional tests using Excel.  This technique  was then adopted across further projects in Risk.  
-- With E-Star, we introduced new software build techniques to Risk:  **Maven, Cruise Control** and **automated functional testing** and **JUnit**
+- With E-Star, we introduced new software build techniques to Risk:  **Maven, Cruise Control** and automated functional testing and **JUnit**.
 - I was made a member of Royal Bank of Scotland’s talent programme.
 
 [/block]
@@ -135,7 +139,7 @@ _Project Manager & Tech Lead in Global Banking and Market’s Risk Team._
 
 #### Repo-VaR
 
-- PM and developer on another critical **Basel II** project:  without this, the bank relied on the more capital-intensive haircut approach, but with RepoVaR we got sign-off from the FSA (Financial Services Authority) to use our own internal model which was less capital intensive.
+- I was PM and developer on Repo-VaR, another critical **Basel II** project.  Without this, the bank relied on the more capital-intensive haircut approach, but with RepoVaR we got sign-off from the FSA (Financial Services Authority) to use our own internal model which was less capital intensive.
 - In conjunction with this, I built the **RepoVaR Back Testing** project.  In order to get a model FSA-approved, you have to back-test it.  I built the Back Testing software, which looked back through time to check that for a given historic period, our model’s predictions were correct.
 - Over time, we discovered flaws in the methodology of our backtesting, but with a comprehensive understanding of the **repo product family** and how **VaR** was calculated for them, I was able to specify and then engineer a new back testing calculation to avoid these breaks.
 
