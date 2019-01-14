@@ -1,4 +1,4 @@
-# Rob Moffat, Java / Javascript Full-Stack Team Lead / Senior Dev
+# Rob Moffat, Java / Javascript / Full-Stack / Senior Dev or Team Lead
 
 ## Qualifications ##
 
