@@ -11,13 +11,14 @@
 ## Summary ##
  - I have recently been working at HSBC delivering two projects as one-man-teams, whilst at Credit Suisse I was leading a testing team within a wider credit-risk back-testing project.
  - I am a seasoned Java Developer and Tech Lead with a passion for testing, quality and build systems. 
- - I studied Lean/Kanban principles on my MBA, and try to apply them to projects I work on. 
  - I am confident communicating technical ideas.  I write _lots_ of technical documentation,  and I'm happy running workshops or giving presentations if required.
+ - I have wide experience of CI tools like Jenkins/Hudson, Team City, Gradle, GIT and Maven.  I'm usually the guy who ends up fixing the builds.
  - I am experienced in writing testable requirements documentation, and negotiating sign-off processes.
  - I've worked in Finance IT for over 10 years, and I'm used to dealing with large, complex, long-running Risk / Regulatory projects with multiple stakeholders and distributed teams.
+ - I studied Lean/Kanban principles on my MBA, and try to apply them to projects I work on. 
+ - I've done software project management, but I don't love it enough to want to do it for my job.
  - I've coached agile teams and used Scrum, but I believe team process is usually less important than strong automated testing with Continuous Integration/Delivery practices.  
- - I have wide experience of CI tools like Jenkins/Hudson, Team City, Gradle, GIT and Maven.  I'm usually the guy who ends up fixing the builds.
- - Experience with current web technologies such as JavaScript, SVG, JSON, Sass, HTML5, React, Redux and Node. 
+ - I've got experience with current web technologies such as JavaScript, SVG, JSON, Sass, HTML5, React, Redux and Node. 
  - I've built many relational-backed software systems from the ground up using Oracle, MySQL and Sybase, and I've got an in-depth understanding of performance optimisation.
 
 [block]   
