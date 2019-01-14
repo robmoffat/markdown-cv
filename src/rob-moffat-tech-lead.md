@@ -47,12 +47,17 @@ Symphony is a secure chat messaging system being developed by a consortium of fi
 - I build an **Apache Solr** and **Spring Boot** based application for Symphony which indexed HSBC Global Research publications, making them searchable and shareable from within Symphony.
 - It used a **Javascript React and Redux** front-end, with tests written in **Jest** and **Selenium**.
 - Search results from the app were qualitatively better than those from the existing Global Research search engine, so at the time I left the plan was to switch the website to use the same search engine.
-- Although built for internal use, Global Research tasked me with rolling this out to Symphony users in other institutions too.  [Here is a promotional video HSBC made for the app launch.](https://players.brightcove.net/1311491902001/default_default/index.html?videoId=5759030978001)  
+- Although built for internal use, the Global Research team tasked me with rolling this out to Symphony users in other institutions too.  [Here is a promotional video HSBC made for the app launch.](https://players.brightcove.net/1311491902001/default_default/index.html?videoId=5759030978001)  
 
 #### Other Symphony Applications
 
 - As well as building the Research Application, we built a Symphony Bot to respond to user's requests for research articles.  
 - In order to troubleshoot outages and performance problems with Symphony, I built a monitoring dashboard using Spring Boot, Grafana and InfluxDB.
+
+#### Responsive Content Project
+
+- I moved from the Symphony team to the Global Research team after the success of the Symphony App.  They tasked me with building a tool to convert Global Research publications (Microsoft Word documents) into responsive HTML5.
+- Although this was working well in December 2018, the project was shelved due to budgetary problems.  
 
 ### Credit Suisse (Oct 2013 to May 2015) ###
 
