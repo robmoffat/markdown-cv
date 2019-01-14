@@ -11,7 +11,7 @@
 ## Summary ##
  - I am a seasoned Senior Developer or Tech Lead with a passion for testing, quality and build systems. 
  - At HSBC I delivered two projects in teams-of-one, whilst at Credit Suisse I lead a testing team and worked as a developer within their DSL team.
- - I am confident communicating technical ideas.  I write _lots_ of technical documentation,  and I'm happy running workshops or giving presentations if required.
+ - I am confident communicating technical ideas.  I write _lots_ of technical documentation and I'm happy running workshops or giving presentations if required.
  - I have wide experience of CI tools like Jenkins/Hudson, Team City, Gradle, GIT and Maven.  I'm usually the guy who ends up fixing the builds.
  - I am experienced in writing testable requirements documentation, and negotiating sign-off processes.
  - I've worked in Finance IT for over 10 years, and I'm used to dealing with large, complex, long-running Risk / Regulatory projects with multiple stakeholders and distributed teams.
