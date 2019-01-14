@@ -29,7 +29,7 @@ I put a lot of code on GitHub in my spare time:
 
  - **[Concordion](http://github.com/concordion/concordion-excel-extension)**:   Wherever I work I am a firm advocate for automated testing.   I wrote an extension for Concordion to make it more suitable for unit testing financial calculations with examples created in Excel spreadsheets.
 
-- **[Pure4J](https://github.com/pure4j/pure4j)**:  I’ve been working recently in **Clojure**, and I'm interested in pure functional programming as ways of improving throughput and program correctness.  Pure4J is an experimental Java code analysis tool to check functional purity within a codebase.
+- **[Pure4J](https://github.com/pure4j/pure4j)**:  I’ve been working recently in **Clojure**, and I'm interested in pure functional programming as a way of improving program correctness.  Pure4J is an experimental Java code analysis tool to check functional purity within a codebase.
 
 - **[Risk-First](https://github.com/risk-first/website/wiki)**:  Mainly a wiki classifying different types of risk found on software projects, but there is also Java code here that integrates with Twitter and GitHub APIs.
 
