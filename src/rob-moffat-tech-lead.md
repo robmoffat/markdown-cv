@@ -39,7 +39,7 @@ I put a lot of code on GitHub in my spare time:
 
 ## Career ##
 
-### HSBC (May 2015 to Present) ###
+### HSBC (May 2015 to Dec 2018) ###
 
 #### HSBC Global Research Symphony App ####
 
@@ -47,11 +47,13 @@ Symphony is a secure chat messaging system being developed by a consortium of fi
 
 - I build an **Apache Solr** and **Spring Boot** based application for Symphony which indexed HSBC Global Research and made it searchable and shareable from within Symphony.
 - It used a **Javascript React and Redux** front-end, with tests written in **Jest** and **Selenium**.
-- We adopted a Devops-style approach, eventually automating the process enough to release approximately every 2-weeks.
-- HSBC Global Research website that they decided to throw theirs away and start using our search strategically.
-- Recently, other teams have come to us asking for *their own* versions of the same app, to fix problems of search and sharing for their teams.  
+- Search results from the app were qualitatively better than those from the existing Global Research search engine, so at the time I left the plan was to switch the website to use the same search engine.
+- Although built for internal use, Global Research tasked me with rolling this out to Symphony users in other institutions too.  [Here is a promotional video HSBC made for the app launch.](https://players.brightcove.net/1311491902001/default_default/index.html?videoId=5759030978001)  
 
-#### Symphony Applications
+#### Other Symphony Applications
+
+- As well as building the Research Application, we built a Symphony Bot to respond to user's requests for research articles.  
+- In order to troubleshoot outages and performance problems with Symphony, I built a monitoring dashboard using Spring Boot, Grafana and InfluxDB.
 
 ### Credit Suisse (Oct 2013 to May 2015) ###
 
@@ -59,10 +61,9 @@ Symphony is a secure chat messaging system being developed by a consortium of fi
 
 "REF" is a component framework for building risk and finance calculations at Credit Suisse.  After the departure of the first architects, I took on the role of re-architecting REF, to simplify it and improve reliability:  
 
- - I led a project to re-architect the Data Service Layer: The original design had three separate Java JVMs, code generated from a **Sparx Enterprise Architect** models and was impossible to debug.  We moved to **Spring / JPA / Hibernate**, and made the whole thing a library, which improved performance and maintainability at the same time.
+ - I led a project to re-write the Data Service Layer: The original design had three separate Java JVMs, code generated from a **Sparx Enterprise Architect** model and was impossible to debug.  We moved to **Spring / JPA / Hibernate** and made the whole thing a library.  This improved performance and maintainability at the same time.  
  - I devised the configuration and deployment process for all components, and persuaded all the component teams to adopt these standards.  This enabled **Continuous Deployment** for REF.   
- - REF started out as a set of inter-dependent, individually-versioned micro-services, communicating using **JMS and Apache MQ**.  But coupling between the modules was so high this created problems every time a change was made.  I organised all the teams to move their code into a single build tree.  This meant developers could work on each other's modules and see immediately when their changes had broken other components.
- - I removed our **Oracle Coherence** dependency (millions of CHF in licensing fees).
+ - I removed our **Oracle Coherence** dependency (saving millions of CHF in licensing fees).
  - I worked on the architecture for REF2 (which will be more "buffet" style than the original REF).  For this I built out tutorials covering topics such as **Docker, Azure, REST, Security, Jenkins and Spring Boot** for developers of other projects to follow.
  
 [/block]
@@ -73,7 +74,7 @@ Symphony is a secure chat messaging system being developed by a consortium of fi
 
 Back Testing was a project built in CS using the REF architecture.  
  
-- I ran a team responsible for building out an Automated Testing Framework for REF, and we also took care of building tests specific to the Back Testing project.
+- I ran a team responsible for building an Automated Testing Framework for REF, and we also took care of building tests specific to the Back Testing project.
 - I ran a weekly workshop for developers and BAs on the Back Testing project to explain methodology and process.  We covered aspects of statistics (**p-Values, Cramer von Mises, Sampling Dots**), testing methodology (mocking, integration testing) and risk methodology (**Monte-Carlo, Historic VaR**) for an audience in multiple regions.
 
 [/block]
