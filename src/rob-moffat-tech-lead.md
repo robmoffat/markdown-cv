@@ -1,4 +1,4 @@
-# Rob Moffat, Java Tech Lead
+# Rob Moffat, Java / Javascript Full-Stack Team Lead / Senior Dev
 
 ## Qualifications ##
 
@@ -8,34 +8,29 @@
  -	Certified Java Developer 
  -	4 A Levels, 8 A Grade GCSEs
 
-## Summary of Skills ##
- - I am a seasoned Java Software Architect and Tech Lead with a passion for testing, quality and build systems. 
- - I am used to managing outsourced as well as distributed teams.
- - I'm a strong proponent of the Agile Principles.  I've coached agile teams and use **Scrum**, but I believe team task process is usually less important than strong automated testing with **Continuous Integration/Delivery** practices.  I studied **Lean/Kanban** principles on my MBA, and try to apply them to projects I work on. 
- - I am confident communicating technical ideas, whether writing technical documentation, producing **UML** or other diagrams, running workshops or giving presentations.
+## Summary ##
+ - I have recently been working at HSBC delivering two projects as one-man-teams, whilst at Credit Suisse I was leading a testing team within a wider credit-risk back-testing project.
+ - I am a seasoned Java Developer and Tech Lead with a passion for testing, quality and build systems. 
+ - I studied Lean/Kanban principles on my MBA, and try to apply them to projects I work on. 
+ - I am confident communicating technical ideas.  I write _lots_ of technical documentation,  and I'm happy running workshops or giving presentations if required.
  - I am experienced in writing testable requirements documentation, and negotiating sign-off processes.
- - I've worked in Finance IT for over 10 years, and I'm used to dealing with large, complex, long-running **Risk / Regulatory** projects with multiple stakeholders and distributed teams.
- - I have wide experience of CI tools like **Jenkins/Hudson, Team City, Gradle, GIT** and **Maven**.
- - Experience with current web technologies such as **JavaScript, jQuery, SVG, JSONP, CSS3, HTML5, WordPress, Drupal, PHP, React.js and Node.js**. 
- - I've architected many relational-backed software systems from the ground up using **Oracle, MySQL and  Sybase**, and I've got an in-depth understanding of performance optimisation.
+ - I've worked in Finance IT for over 10 years, and I'm used to dealing with large, complex, long-running Risk / Regulatory projects with multiple stakeholders and distributed teams.
+ - I've coached agile teams and used Scrum, but I believe team process is usually less important than strong automated testing with Continuous Integration/Delivery practices.  
+ - I have wide experience of CI tools like Jenkins/Hudson, Team City, Gradle, GIT and Maven.  I'm usually the guy who ends up fixing the builds.
+ - Experience with current web technologies such as JavaScript, SVG, JSON, Sass, HTML5, React, Redux and Node. 
+ - I've built many relational-backed software systems from the ground up using Oracle, MySQL and Sybase, and I've got an in-depth understanding of performance optimisation.
 
 [block]   
    
 ## Open Source Projects ##
 
-Two projects I am involved in, which both aim to help developers build good code:
+I put a lot of code on GitHub in my spare time:
 
-### [Concordion](http://github.com/concordion/concordion-excel-extension)
+ - **[Concordion](http://github.com/concordion/concordion-excel-extension)**:   Wherever I work I am a firm advocate for automated testing.   I wrote an extension for Concordion to make it more suitable for unit testing financial calculations with examples created in Excel spreadsheets.
 
-Wherever I work I am a firm advocate for automated testing.   **Concordion** is a functional testing framework for Java.  I wrote an extension for Concordion to make it more suitable for testing financial calculations:  Business Analysts in banks understand **Excel**.   Therefore, why not get them to write test cases in Excel?  These can be parsed as functional test examples by my extension, so you can ensure that the Java code under test is getting the answers the same as the Excel spreadsheet example.
+- **[Pure4J](https://github.com/pure4j/pure4j)**:  I’ve been working recently in **Clojure**, and interested in pure functional programming as ways of improving throughput and program correctness.  Pure4J is an experimental Java code analysis tool to check functional purity within a codebase.
 
-[/block]
-
-[block]
-
-### [Pure4J](https://github.com/pure4j/pure4j)
-
-I’ve been working recently in **Clojure**, and interested in **pure functional programming** as ways of improving throughput and program correctness.  But asking developers in finance to learn Haskell, say, would be crazy: everyone already knows Java, it’s our *lingua franca*.   Pure4J is an experimental Java code analysis tool for ensuring functional purity within a codebase, giving you the advantages of this style of programming without having to learn a new language.  Pure4J comes with the immutable, persistent collections from **Clojure**, adapted to use generics and normal Java idioms.
+- **[Risk-First](https://github.com/risk-first/website/wiki)**:  Mainly a wiki classifying different types of risk found on software projects, but there is also Java code here that integrates with Twitter and GitHub APIs.
 
 [/block]
 
@@ -45,15 +40,17 @@ I’ve been working recently in **Clojure**, and interested in **pure functional
 
 ### HSBC (May 2015 to Present) ###
 
-#### Symphony Projects ####
+#### HSBC Global Research Symphony App ####
 
 Symphony is a secure chat messaging system being developed by a consortium of finance and tech partners including HSBC and other tier 1 banks.  I was hired to build technologies (such as chat-bots) to integrate HSBC systems with Symphony to increase the value of the platform and therefore its internal uptake.
 
 - I build an **Apache Solr** and **Spring Boot** based application for Symphony which indexed HSBC Global Research and made it searchable and shareable from within Symphony.
 - It used a **Javascript React and Redux** front-end, with tests written in **Jest** and **Selenium**.
 - We adopted a Devops-style approach, eventually automating the process enough to release approximately every 2-weeks.
-- The search was so much more useful than the one on the main HSBC Global Research website that they decided to throw theirs away and start using our search strategically.
+- HSBC Global Research website that they decided to throw theirs away and start using our search strategically.
 - Recently, other teams have come to us asking for *their own* versions of the same app, to fix problems of search and sharing for their teams.  
+
+#### Symphony Applications
 
 ### Credit Suisse (Oct 2013 to May 2015) ###
 
