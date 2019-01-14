@@ -145,8 +145,13 @@ _Project Manager & Tech Lead in Global Banking and Market’s Risk Team._
 
 _Tech Lead in the Risk and PnL Reporting Team._
 
+#### Risk Websites
+
 - I developed and delivered a complete global redesign and rollout of Risk’s website in 5 regions using **Java Servlets, JSP and Sybase**, based on the Deutsche Look-And-Feel guidelines.  I built a **JSP tag library** for all of the Deutsche interface elements, so other people could do the same with their websites.
-- I was tech lead and architect on the **MIS3 Project**, which was a risk and PnL aggregation and reporting tool.
+
+#### MIS3
+
+- I was tech lead and architect on the MIS3 Project, a risk and PnL aggregation and reporting tool.
 - MIS3 continues to be a key strategic system at Deutsche Bank.  (Apparently, they’ve barely changed the code I wrote in 2004.)
 - Later on, I helped design an **Oracle data warehouse** for MIS3 data.
 
