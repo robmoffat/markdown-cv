@@ -16,9 +16,9 @@
  - I am confident communicating technical ideas.  I write _lots_ of technical documentation and I'm happy running workshops or giving presentations if required.
  - I have wide experience of **CI tools** like Jenkins/Hudson, Team City, Gradle, GIT and Maven.  I'm usually the guy who ends up fixing the builds.
  - I've coached agile teams and used Scrum, but I believe team process is usually less important than strong automated testing with Continuous Integration/Delivery practices.  
- - I've worked in Finance IT for over 10 years, and I'm used to dealing with large, complex, long-running Risk / Regulatory projects with multiple stakeholders and distributed teams.
+ - I've worked in Finance IT for over 10 years, and I'm used to dealing with large, complex, long-running **Risk / Regulatory** projects with multiple stakeholders and distributed teams.
  - I am experienced in writing testable requirements documentation and negotiating sign-off processes.
- - I've got experience with current web technologies such as JavaScript, SVG, JSON, SCSS, HTML5, React, Redux and Node. 
+ - I've got experience with current web technologies such as **JavaScript, SVG, JSON, SCSS, HTML5, React, Redux and Node**. 
  - I've built many relational-backed software systems from the ground up using Oracle, MySQL and Sybase, JPA and Hibernate, and I've got an in-depth understanding of performance optimisation.
 
 [block]   
