@@ -39,9 +39,10 @@ I put a lot of code on GitHub in my spare time:
 
 ### HSBC (May 2015 to Dec 2018) ###
 
-#### HSBC Global Research Symphony App ####
 
 Symphony is a secure chat messaging system being developed by a consortium of finance and tech partners including HSBC and other tier 1 banks.  I was hired to build technologies (such as chat-bots) to integrate HSBC systems with Symphony to increase the value of the platform and therefore its internal uptake.
+
+#### HSBC Global Research Symphony App ####
 
 - I build an **Apache Solr** and **Spring Boot** based application for Symphony which indexed HSBC Global Research publications, making them searchable and shareable from within Symphony.
 - It used a **Javascript React and Redux** front-end, with tests written in **Jest** and **Selenium**.
