@@ -44,7 +44,7 @@ Symphony is a secure chat messaging system being developed by a consortium of fi
 
 #### HSBC Global Research Symphony App ####
 
-- I build an **Apache Solr** and **Spring Boot** based application for Symphony which indexed HSBC Global Research publications, making them searchable and shareable from within Symphony.
+- I build an **Apache Solr** and **Spring Boot** based application for Symphony which indexed HSBC Global Research publications, making them searchable and shareable from Symphony chats.
 - It used a **Javascript React and Redux** front-end, with tests written in **Jest** and **Selenium**.
 - Search results from the app were qualitatively better than those from the existing Global Research search engine, so at the time I left the plan was to switch the website to use the same search engine.
 - Although built for internal use, the Global Research team tasked me with rolling this out to Symphony users in other institutions too.  [Here is a promotional video HSBC made for the app launch.](https://players.brightcove.net/1311491902001/default_default/index.html?videoId=5759030978001)  
