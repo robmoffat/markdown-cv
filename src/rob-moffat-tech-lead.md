@@ -45,7 +45,7 @@ Symphony is a secure chat messaging system being developed by a consortium of fi
 
 #### HSBC Global Research Symphony App ####
 
-- I build an **Apache Solr** and **Spring Boot** based application for Symphony which indexed HSBC Global Research publications, making them searchable and shareable from Symphony chats.
+- I build an **Apache Solr** and **Spring Boot**-based application for Symphony which indexed HSBC Global Research publications, making them searchable and shareable from Symphony chats.
 - It used a **Javascript React and Redux** front-end, with tests written in **Jest** and **Selenium**.
 - Search results from the app were qualitatively better than those from the existing Global Research search engine, so at the time I left, the plan was to switch the website to use the same search engine.
 - Although built for internal use, the Global Research team tasked me with rolling this out to Symphony users in other institutions too.  [Here is a promotional video HSBC made for the app launch.](https://players.brightcove.net/1311491902001/default_default/index.html?videoId=5759030978001)  
@@ -66,7 +66,7 @@ Symphony is a secure chat messaging system being developed by a consortium of fi
 
 ### Credit Suisse (Oct 2013 to May 2015) ###
 
-_Senior Dev / Team Lead Roles in Credit Risk._
+_Senior Dev / Team Lead roles in Credit Risk._
 
 #### REF Team ####
 
@@ -114,7 +114,7 @@ _Project Manager & Tech Lead in Global Banking and Market’s Risk Team._
 
 - Architect and Tech Lead on **E-Star**, which was RBS’s investment bank implementation of **Basel II** - a critical project with drop-dead timelines.
 - When the project manager left, I assumed this role too and delivered E-Star over it’s 3 releases.
-- E-Star used **Java, Spring, Sybase, JMS and Hibernate**, and it was here I started building functional tests using Excel.  This technique  was then adopted across future projects in Risk.  (In fact, this is broadly the approach used in my open-source [Concordion Excel Extension](https://github.com/concordion/concordion-excel-extension).)
+- E-Star used **Java, Spring, Sybase, JMS and Hibernate**, and it was here I started building functional tests using Excel.  This technique  was then adopted across further projects in Risk.  
 - With E-Star, we introduced new software build techniques to Risk:  **Maven, Cruise Control** and **automated functional testing** and **JUnit**
 - I was made a member of Royal Bank of Scotland’s talent programme.
 
@@ -125,7 +125,7 @@ _Project Manager & Tech Lead in Global Banking and Market’s Risk Team._
 #### Gateway 
 
 - PM and Architect on **Gateway**: a limit-checking service for prime brokerage clients, with high-frequency, low-latency requirements.   We ensured these requirements were met with **JMeter** tests and Java profiling.
-- As well as using **XStream, RMI, Java, Spring, Servlets**, we used **Coherence**, and it was the first project at RBS to make use of this.  
+- As well as using **XStream, RMI, Java and Spring**, we used **Coherence**, and it was the first project at RBS to make use of this.  
 
 [/block]
 
@@ -134,12 +134,10 @@ _Project Manager & Tech Lead in Global Banking and Market’s Risk Team._
 #### Repo-VaR
 
 - PM and developer on another critical **Basel II** project:  without this, the bank relied on the more capital-intensive haircut approach, but with RepoVaR we got sign-off from the FSA (Financial Services Authority) to use our own internal model which was less capital intensive.
-
-[/block]
-
 - In conjunction with this, I built the **RepoVaR Back Testing** project.  In order to get a model FSA-approved, you have to back-test it.  I built the Back Testing software, which looked back through time to check that for a given historic period, our model’s predictions were correct.
 - Over time, we discovered flaws in the methodology of our backtesting, but with a comprehensive understanding of the **repo product family** and how **VaR** was calculated for them, I was able to specify and then engineer a new back testing calculation to avoid these breaks.
 
+[/block]
 
 [block]
 
@@ -148,10 +146,9 @@ _Project Manager & Tech Lead in Global Banking and Market’s Risk Team._
 _Tech Lead in the Risk and PnL Reporting Team._
 
 - I developed and delivered a complete global redesign and rollout of Risk’s website in 5 regions using **Java Servlets, JSP and Sybase**, based on the Deutsche Look-And-Feel guidelines.  I built a **JSP tag library** for all of the Deutsche interface elements, so other people could do the same with their websites.
-- I was tech lead and architect on the **MIS3 Project**, which was a risk and PnL aggregation and reporting tool that brought together daily valuations and risk together with trade details from a variety of different risk and trade sources for use by downstream groups (margin management, risk controlling, accounts etc).
-- MIS3 is notable because it used the *Inversion Of Control* pattern (which was new at the time) in the **Apache Avalon container** (a precursor to **Spring**).  MIS3 was horizontally scalable, distributed and redundant.
+- I was tech lead and architect on the **MIS3 Project**, which was a risk and PnL aggregation and reporting tool.
+- MIS3 continues to be a key strategic system at Deutsche Bank.  (Apparently, they’ve barely changed the code I wrote in 2004.)
 - Later on, I helped design an **Oracle data warehouse** for MIS3 data.
-- MIS3 continues to be a key strategic system at Deutsche Bank.  Apparently, they’ve barely changed the code I wrote twelve years ago.
 
 [/block]
 
