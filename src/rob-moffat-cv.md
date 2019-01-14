@@ -50,6 +50,8 @@ Asking developers in finance to learn Haskell would be crazy: everyone already k
 
 [/block]
 
+[block]
+
 ### [Risk-First](https://github.com/risk-first/website/wiki)
 
 Risk-First is an Open-Source Wiki in Github cataloging software risks.  It is also [a book which you can buy](https://www.amazon.co.uk/dp/B07MK9LTHN/ref=cm_sw_em_r_mt_dp_U_.2mpCb7F1N9E9) on Amazon.
@@ -59,6 +61,8 @@ The conception behind Risk-First is that _everything we do on a software project
 At the time of writing, this has been selling fairly well as a book, even though it's just on Kindle pre-order right now, and everything in the book is available to read on the website anyway.  
 
 We'll see where it goes.
+
+[/block]
 
 [block]
 
