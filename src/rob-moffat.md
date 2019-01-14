@@ -1,4 +1,6 @@
-# Rob Moffat, Java / Javascript / Full-Stack / Senior Dev or Team Lead
+# Rob Moffat
+
+# Java / Javascript / Full-Stack / Senior Dev or Tech Lead
 
 ## Qualifications ##
 
@@ -10,24 +12,24 @@
 
 ## Summary ##
  - I am a seasoned Senior Developer or Tech Lead with a passion for testing, quality and build systems. 
- - I'm happy working in any team configuration:  at HSBC I delivered two projects in teams-of-one, whilst at Credit Suisse I lead a testing team and worked as a developer within a team co-located across Poland, India and the UK.
+ - I'm happy working in **any team configuration**:  at HSBC I delivered two projects in teams-of-one, whilst at Credit Suisse I lead a testing team and worked as a developer within a team co-located across Poland, India and the UK.
  - I am confident communicating technical ideas.  I write _lots_ of technical documentation and I'm happy running workshops or giving presentations if required.
- - I have wide experience of CI tools like Jenkins/Hudson, Team City, Gradle, GIT and Maven.  I'm usually the guy who ends up fixing the builds.
+ - I have wide experience of **CI tools** like Jenkins/Hudson, Team City, Gradle, GIT and Maven.  I'm usually the guy who ends up fixing the builds.
  - I've coached agile teams and used Scrum, but I believe team process is usually less important than strong automated testing with Continuous Integration/Delivery practices.  
  - I've worked in Finance IT for over 10 years, and I'm used to dealing with large, complex, long-running Risk / Regulatory projects with multiple stakeholders and distributed teams.
  - I am experienced in writing testable requirements documentation and negotiating sign-off processes.
  - I've got experience with current web technologies such as JavaScript, SVG, JSON, SCSS, HTML5, React, Redux and Node. 
- - I've built many relational-backed software systems from the ground up using Oracle, MySQL and Sybase, and I've got an in-depth understanding of performance optimisation.
+ - I've built many relational-backed software systems from the ground up using Oracle, MySQL and Sybase, JPA and Hibernate, and I've got an in-depth understanding of performance optimisation.
 
 [block]   
    
 ## Open Source Projects ##
 
-I put a lot of code on GitHub in my spare time:
+I put code on GitHub in my spare time:
 
- - **[Concordion Excel Extension](http://github.com/concordion/concordion-excel-extension)**:   Wherever I work I am a firm advocate for automated testing.   I wrote an extension for Concordion to make it more suitable for unit testing financial calculations with examples created in Excel spreadsheets.
+- **[Concordion Excel Extension](http://github.com/concordion/concordion-excel-extension)**:   Wherever I work I am a firm advocate for automated testing.   I wrote an extension for Concordion to make it more suitable for unit testing financial calculations with examples created in Excel spreadsheets.
 
-- **[Pure4J](https://github.com/pure4j/pure4j)**:  I’ve been working recently in Clojure (which sports immutable collections) and I'm interested in pure functional programming as a way of improving program correctness.  Pure4J is an experiment in building a Java code analysis tool to check functional purity within a codebase.
+- **[Pure4J](https://github.com/pure4j/pure4j)**:  I’ve been working recently in Clojure (with its immutable collections) and I'm interested in pure functional programming as a way of improving program correctness.  Pure4J is an experiment in building a Java code analysis tool to check functional purity within a codebase.
 
 - **[Risk-First](https://github.com/risk-first/website/wiki)**:  Mainly a wiki classifying different types of risk found on software projects, but there is also Java code here that integrates with Twitter and GitHub APIs.
 
