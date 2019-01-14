@@ -1,4 +1,4 @@
-# Rob Moffat, Java Architect
+# Rob Moffat, Java Tech Lead
 
 ## Qualifications ##
 
@@ -11,11 +11,11 @@
 ## Summary of Skills ##
  - I am a seasoned Java Software Architect and Tech Lead with a passion for testing, quality and build systems. 
  - I am used to managing outsourced as well as distributed teams.
- - I'm a strong proponent of the Agile Principles.  I've coached **XP** teams and used **Scrum**, but I believe team task process is usually less important than strong automated testing with **Continuous Integration/Delivery** practices.  I studied Lean/Kanban principles on my MBA, and try to apply them to projects I work on. 
+ - I'm a strong proponent of the Agile Principles.  I've coached agile teams and use **Scrum**, but I believe team task process is usually less important than strong automated testing with **Continuous Integration/Delivery** practices.  I studied **Lean/Kanban** principles on my MBA, and try to apply them to projects I work on. 
  - I am confident communicating technical ideas, whether writing technical documentation, producing **UML** or other diagrams, running workshops or giving presentations.
  - I am experienced in writing testable requirements documentation, and negotiating sign-off processes.
  - I've worked in Finance IT for over 10 years, and I'm used to dealing with large, complex, long-running **Risk / Regulatory** projects with multiple stakeholders and distributed teams.
- - I have wide experience of tools like **Jenkins/Hudson, Team City, Gradle** and **Maven**.
+ - I have wide experience of CI tools like **Jenkins/Hudson, Team City, Gradle, GIT** and **Maven**.
  - Experience with current web technologies such as **JavaScript, jQuery, SVG, JSONP, CSS3, HTML5, WordPress, Drupal, PHP, React.js and Node.js**. 
  - I've architected many relational-backed software systems from the ground up using **Oracle, MySQL and  Sybase**, and I've got an in-depth understanding of performance optimisation.
 
@@ -35,7 +35,7 @@ Wherever I work I am a firm advocate for automated testing.   **Concordion** is 
 
 ### [Pure4J](https://github.com/pure4j/pure4j)
 
-I’ve been working recently in **Clojure**, and interested in **pure functional programming** as ways of improving throughput and program correctness.  But asking developers in finance to learn Haskell, say, would be crazy: everyone already knows Java, it’s our *lingua franca*.   Pure4J is a Java code analysis tool for ensuring functional purity within a codebase, giving you the advantages of this style of programming without having to learn a new language.  Pure4J comes with the immutable, persistent collections from **Clojure**, adapted to use generics and normal Java idioms.
+I’ve been working recently in **Clojure**, and interested in **pure functional programming** as ways of improving throughput and program correctness.  But asking developers in finance to learn Haskell, say, would be crazy: everyone already knows Java, it’s our *lingua franca*.   Pure4J is an experimental Java code analysis tool for ensuring functional purity within a codebase, giving you the advantages of this style of programming without having to learn a new language.  Pure4J comes with the immutable, persistent collections from **Clojure**, adapted to use generics and normal Java idioms.
 
 [/block]
 
@@ -43,7 +43,19 @@ I’ve been working recently in **Clojure**, and interested in **pure functional
 
 ## Career ##
 
-### Credit Suisse (Oct 2013 to Present) ###
+### HSBC (May 2015 to Present) ###
+
+#### Symphony Projects ####
+
+Symphony is a secure chat messaging system being developed by a consortium of finance and tech partners including HSBC and other tier 1 banks.  I was hired to build technologies (such as chat-bots) to integrate HSBC systems with Symphony to increase the value of the platform and therefore its internal uptake.
+
+- I build an **Apache Solr** and **Spring Boot** based application for Symphony which indexed HSBC Global Research and made it searchable and shareable from within Symphony.
+- It used a **Javascript React and Redux** front-end, with tests written in **Jest** and **Selenium**.
+- We adopted a Devops-style approach, eventually automating the process enough to release approximately every 2-weeks.
+- The search was so much more useful than the one on the main HSBC Global Research website that they decided to throw theirs away and start using our search strategically.
+- Recently, other teams have come to us asking for *their own* versions of the same app, to fix problems of search and sharing for their teams.  
+
+### Credit Suisse (Oct 2013 to May 2015) ###
 
 #### REF Team ####
 
@@ -53,7 +65,7 @@ I’ve been working recently in **Clojure**, and interested in **pure functional
  - I devised the configuration and deployment process for all components, and persuaded all the component teams to adopt these standards.  This enabled **Continuous Deployment** for REF.   
  - REF started out as a set of inter-dependent, individually-versioned micro-services, communicating using **JMS and Apache MQ**.  But coupling between the modules was so high this created problems every time a change was made.  I organised all the teams to move their code into a single build tree.  This meant developers could work on each other's modules and see immediately when their changes had broken other components.
  - I removed our **Oracle Coherence** dependency (millions of CHF in licensing fees).
- - Currently I am designing the reference architecture for REF2, which will be more "buffet" style than the original REF.  For this I am building out tutorials covering topics such as **Docker, Azure, REST, Security, Jenkins and Spring Boot** for developers of other projects to follow.
+ - I worked on the architecture for REF2 (which will be more "buffet" style than the original REF).  For this I built out tutorials covering topics such as **Docker, Azure, REST, Security, Jenkins and Spring Boot** for developers of other projects to follow.
  
 [/block]
 
@@ -64,13 +76,13 @@ I’ve been working recently in **Clojure**, and interested in **pure functional
 Back Testing was a project built in CS using the REF architecture.  
  
 - I ran a team responsible for building out an Automated Testing Framework for REF, and we also took care of building tests specific to the Back Testing project.
-- I ran a weekly workshop for developers and BAs on the Back Testing project to explain methodology and process.  We covered aspects of statistics (p-Values, Cramer von Mises, Sampling Dots), testing methodology (mocking, integration testing) and risk methodology (Monte-Carlo, Historic VaR) for an audience in multiple regions.
+- I ran a weekly workshop for developers and BAs on the Back Testing project to explain methodology and process.  We covered aspects of statistics (**p-Values, Cramer von Mises, Sampling Dots**), testing methodology (mocking, integration testing) and risk methodology (**Monte-Carlo, Historic VaR**) for an audience in multiple regions.
 
 [/block]
 
 [block]
 
-### Aura Software Sept. 2010 - Oct. 2013
+### Aura Software Sept. 2010 - Oct. 2014
 
 I was variously a Tech Lead, Architect and PM in a small, distributed consultancy building mainly **Learning Management System** (LMS) software for various clients.
 
@@ -125,16 +137,15 @@ Project Manager & Tech Lead in Global Banking and Market’s Risk Team.
 
 #### Tech Lead in the Risk and PnL Reporting Team.
 
-- I introduced improved development practices to the team by bringing all source code under source control in **VSS** (later moved to **CVS**), with a single build process using **Ant**.
-- I Introduced **Eclipse IDE**, which was a new thing back then.  
 - I developed and delivered a complete global redesign and rollout of Risk’s website in 5 regions using **Java Servlets, JSP and Sybase**, based on the Deutsche Look-And-Feel guidelines.  I built a **JSP tag library** for all of the Deutsche interface elements, so other people could do the same with their websites.
 - I was tech lead and architect on the **MIS3 Project**, which was a risk and PnL aggregation and reporting tool that brought together daily valuations and risk together with trade details from a variety of different risk and trade sources for use by downstream groups (margin management, risk controlling, accounts etc).
 - MIS3 is notable because it used the *Inversion Of Control* pattern (which was new at the time) in the **Apache Avalon container** (a precursor to **Spring**).  MIS3 was horizontally scalable, distributed and redundant.
 - Later on, I helped design an **Oracle data warehouse** for MIS3 data.
 - MIS3 continues to be a key strategic system at Deutsche Bank.  Apparently, they’ve barely changed the code I wrote twelve years ago.
-- Finally,  I provided mentoring and project leadership for offshore staff in Spain, and was made a member of Deutsche Bank’s talent programme.
 
 [/block]
+
+[block]
 
 ## Contact Details
 
@@ -145,3 +156,5 @@ Project Manager & Tech Lead in Global Banking and Market’s Risk Team.
 - linkedin: https://linkedin.com/in/robmoffat
 
 References available on request.
+
+[/block]

@@ -50,6 +50,16 @@ Asking developers in finance to learn Haskell would be crazy: everyone already k
 
 [/block]
 
+### [Risk-First](https://github.com/risk-first/website/wiki)
+
+Risk-First is an Open-Source Wiki in Github cataloging software risks.  It is also [a book which you can buy](https://www.amazon.co.uk/dp/B07MK9LTHN/ref=cm_sw_em_r_mt_dp_U_.2mpCb7F1N9E9) on Amazon.
+
+The conception behind Risk-First is that _everything we do on a software project is about managing risk_.  It takes that simple idea, and sees where it goes.  Originally, I thought it wouldn't go further than a single blog post, but once I got thinking about this, the idea just grew and grew.
+
+At the time of writing, this has been selling fairly well as a book, even though it's just on Kindle pre-order right now, and everything in the book is available to read on the website anyway.  
+
+We'll see where it goes.
+
 [block]
 
 ### [Kite9](http://kite9.com)
@@ -210,7 +220,7 @@ We rolled out various successful web-based projects for clients within the medic
 
 [block]
 
-### Credit Suisse Oct. 2014 -  Present
+### Credit Suisse Oct. 2014 -  May 2016
 
 #### Consultant
 
@@ -228,10 +238,41 @@ Confusingly, the DSL project then became part of the **REF** project (a common i
 
 Off the back of this, I was given a team of ten or so summer students from UCL to build a proof-of-concept of a testing framework for the **Scenarios** system.  (Scenarios are where we run the risk calculations under extreme conditions, to see what the effect would be on the bank’s capital.)   Despite the fact that this was a new area to pretty much all of us, we were able to demonstrate functional tests of scenarios VaR calculations.
 
-[/block]
-
 I then ran a team tasked to build out functional testing for the **Strategic Back-Testing** project.  Although I’d done back-testing before at RBS, the methodology had advanced *a lot*, and used some interesting new statistical tests (such as Cramer-von-Mises and P-Values).  We built Excel-based example tests using the Concordion Excel Extension, and ran them against the Backtesting code to assert the calculations were correct in the production system.
 
 After completing this, I moved back into the **DSL** team. There had been a series of owners and some extreme deadlines and the integrity of the original system had been lost.  With a colleague, we rewrote the whole thing in about 3 months using **JPA** and **Spring**.  We reversed some of the original architectural errors too, making it leaner, simpler and more performant.
 
+[/block]
+
+[block]
+
+### HSBC May 2016 -  Dec 2018
+
+#### Symphony Application Developer (Consultant)
+
+[Symphony](https://symphony.com/en-US) is an encrypted chat platform used by several banks and other finance firms.  At the point I was hired, HSBC were just getting started on deploying Symphony internally, and it was something new:  Software-as-a-Service running inside AWS.  How well would this integrate with the banks' existing systems?  
+
+Turns out, it was a lot of work.  I ended up building applications and dashboards to monitor connectivity to  Symphony, building good relationships with the staff that work there.  At the same time, I learnt a _huge amount_ about **encryption, SSL, certificates, proxies, public/private keys** and so on.  
+
+But the big piece of work I did was to build the **HSBC Global Research App**.  This was software that used the Symphony APIs and the Symphony App-Store to provide an app to users of Symphony so they could search for, and share articles published by HSBC's Research team. 
+
+I used a bunch of new technologies here:  **Spring Boot, React, Redux, npm, TypeScript** and **Apache Solr** (for the search index). 
+
+You can check out the [teaser video here](https://players.brightcove.net/1311491902001/default_default/index.html?videoId=5759030978001).
+
+#### Global Research Team: Responsive Content (Consultant)
+
+While I had been building the HSBC Global Research App for the Symphony team, it was never really at home there because the _content_ for the application belonged to Global Research.  So, I moved within the bank and joined the Global Research team to complete the project.
+
+Following that, I began a project to make the Global Research content _responsive_.  Previously, most research had been published as PDF files, which were great when printed, but almost impossible to read on a mobile device.  
+
+I was tasked with providing a solution to get the PDFs to display using responsive HTML.  The approach I chose was to convert them from their original Microsoft Word format to a (very basic) HTML format using **docx4j**.   For the images in the documents, Word uses **EMF** and **WMF** formats, and I was able to convert these to **SVG** using **Apache Batik** and a modified **FreeHEP**.  From there, I devised a pipeline for "cleaning up" the resulting HTML so that it was tight semantic mark-up.  
+
+This sounds easy, but the problem was one of scale: _thousands_ of documents written by _hundreds_ of authors, each using different features of Microsoft Word.  It was never going to be perfect, but after 3 months I had demonstrated the feasibility:  something like 95% of documents were converting correctly.
+
+Sadly at this point, I had worked at HSBC for 2.5 years, and due to IR35 rules had to leave.  
+
 *Online version: https://github.com/robmoffat/markdown-cv/blob/master/src/rob-moffat-cv.md*
+
+
+[/block]
